@@ -1,0 +1,53 @@
+# LangGraph Math Agent 配置文件模板
+# 复制此文件为 config.yaml 并填入真实的 API keys
+
+# 模型配置
+models:
+  # DeepSeek 模型配置
+  deepseek:
+    name: "deepseek-chat"
+    api_key_env: "DEEPSEEK_API_KEY"  # 从环境变量读取
+    # DEEPSEEK_API_KEY: "your-deepseek-api-key-here"  # 本地配置（不提交到 Git）
+    base_url: "https://api.deepseek.com"
+    temperature: 0.7
+    max_tokens: 4000
+
+  # GLM 模型配置
+  glm:
+    name: "glm-4"
+    api_key_env: "GLM_API_KEY"  # 从环境变量读取
+    # GLM_API_KEY: "your-glm-api-key-here"  # 本地配置（不提交到 Git）
+    base_url: "https://open.bigmodel.cn/api/paas/v4"
+    temperature: 0.7
+    max_tokens: 4000
+
+  # Kimi 模型配置
+  kimi:
+    name: "moonshot-v1-8k"
+    api_key_env: "KIMI_API_KEY"  # 从环境变量读取
+    # KIMI_API_KEY: "your-kimi-api-key-here"  # 本地配置（不提交到 Git）
+    base_url: "https://api.moonshot.cn/v1"
+    temperature: 0.7
+    max_tokens: 4000
+
+# 默认模型
+default_model: "deepseek"
+
+# 日志配置
+logging:
+  level: "INFO"
+  file: "logs/math_agent.log"
+  max_size: "10MB"
+  backup_count: 5
+
+# 数据配置
+data:
+  max_file_size: "100MB"
+  allowed_extensions: [".csv", ".xlsx", ".json", ".txt"]
+  output_dir: "data/output"
+
+# 安全配置
+security:
+  enable_api_key_validation: true
+  max_requests_per_minute: 60
+  timeout_seconds: 30

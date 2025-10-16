@@ -21,13 +21,31 @@ pip install -r requirements.txt
 
 ### 2. 配置环境变量
 
-复制 `.env.example` 到 `.env` 并填入你的 API Keys：
+**⚠️ 安全配置说明：**
 
+1. **复制环境变量模板：**
 ```bash
 cp .env.example .env
 ```
 
-编辑 `.env` 文件，填入相应的 API Keys。
+2. **编辑 `.env` 文件，填入你的 API Keys：**
+```bash
+# 编辑 .env 文件
+DEEPSEEK_API_KEY=your-deepseek-api-key-here
+GLM_API_KEY=your-glm-api-key-here
+KIMI_API_KEY=your-kimi-api-key-here
+```
+
+3. **复制配置文件模板：**
+```bash
+cp config/config.yaml.example config/config.yaml
+```
+
+**🔒 安全注意事项：**
+- **永远不要**将真实的 API Keys 提交到 Git 仓库
+- `.env` 和 `config/config.yaml` 文件已被添加到 `.gitignore`
+- 使用环境变量管理敏感信息
+- 定期轮换 API Keys
 
 ### 3. 运行程序
 
@@ -100,16 +118,18 @@ python main.py
 langgraph-math-agent/
 ├── requirements.txt          # 项目依赖
 ├── .env.example             # 环境变量模板
+├── .gitignore               # Git 忽略文件（包含敏感文件）
 ├── README.md                # 项目说明文档
 ├── docs/                    # 文档目录
 │   ├── architecture.svg     # 系统架构图
 │   ├── dataflow.svg         # 数据流图
 │   └── components.svg       # 组件关系图
 ├── config/
-│   └── config.yaml          # 模型配置文件
+│   ├── config.yaml.example # 配置文件模板
+│   └── logging.yaml         # 日志配置文件
 ├── data/                    # 数据文件目录
-├── chat_history/           # 会话历史存储
-├── logs/                   # 日志文件目录
+├── chat_history/           # 会话历史存储（Git 忽略）
+├── logs/                   # 日志文件目录（Git 忽略）
 ├── src/
 │   ├── __init__.py
 │   ├── agent.py             # LangGraph Agent 核心逻辑
@@ -121,6 +141,12 @@ langgraph-math-agent/
 │   └── model_call_logger.py # 模型调用日志记录
 └── main.py                  # CLI 主入口
 ```
+
+**🔒 安全文件说明：**
+- `.env` - 环境变量文件（包含 API Keys，不提交到 Git）
+- `config/config.yaml` - 配置文件（包含 API Keys，不提交到 Git）
+- `chat_history/*.json` - 会话历史文件（可能包含敏感信息，不提交到 Git）
+- `logs/*.log` - 日志文件（可能包含 API 调用记录，不提交到 Git）
 
 ## 核心代码详解
 
