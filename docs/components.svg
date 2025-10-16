@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200" height="800" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .title { font-family: Arial, sans-serif; font-size: 20px; font-weight: bold; fill: #2c3e50; }
+      .component-title { font-family: Arial, sans-serif; font-size: 14px; font-weight: bold; fill: #2c3e50; }
+      .component-text { font-family: Arial, sans-serif; font-size: 11px; fill: #34495e; }
+      .arrow { stroke: #3498db; stroke-width: 2; fill: none; marker-end: url(#arrowhead); }
+      .dependency { stroke: #e74c3c; stroke-width: 2; fill: none; stroke-dasharray: 3,3; }
+      .data-flow { stroke: #27ae60; stroke-width: 2; fill: none; stroke-dasharray: 5,5; }
+    </style>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#3498db" />
+    </marker>
+  </defs>
+  
+  <!-- 标题 -->
+  <text x="600" y="30" text-anchor="middle" class="title">LangGraph 数据分析智能体 - 组件关系图</text>
+  
+  <!-- 核心组件 -->
+  <g id="core-components">
+    <!-- MathAgentCLI -->
+    <rect x="50" y="80" width="200" height="100" fill="#3498db" stroke="#2980b9" stroke-width="2" rx="10"/>
+    <text x="150" y="105" text-anchor="middle" class="component-title" fill="white">MathAgentCLI</text>
+    <text x="150" y="125" text-anchor="middle" class="component-text" fill="white">main.py</text>
+    <text x="60" y="145" class="component-text" fill="white">• 用户交互</text>
+    <text x="60" y="160" class="component-text" fill="white">• 模型选择</text>
+    <text x="60" y="175" class="component-text" fill="white">• 流式对话</text>
+    
+    <!-- MathAgent -->
+    <rect x="300" y="80" width="200" height="100" fill="#e74c3c" stroke="#c0392b" stroke-width="2" rx="10"/>
+    <text x="400" y="105" text-anchor="middle" class="component-title" fill="white">MathAgent</text>
+    <text x="400" y="125" text-anchor="middle" class="component-text" fill="white">agent.py</text>
+    <text x="310" y="145" class="component-text" fill="white">• LangGraph状态图</text>
+    <text x="310" y="160" class="component-text" fill="white">• 工具调用</text>
+    <text x="310" y="175" class="component-text" fill="white">• 流式处理</text>
+    
+    <!-- ModelManager -->
+    <rect x="550" y="80" width="200" height="100" fill="#f39c12" stroke="#e67e22" stroke-width="2" rx="10"/>
+    <text x="650" y="105" text-anchor="middle" class="component-title" fill="white">ModelManager</text>
+    <text x="650" y="125" text-anchor="middle" class="component-text" fill="white">models.py</text>
+    <text x="560" y="145" class="component-text" fill="white">• 多模型支持</text>
+    <text x="560" y="160" class="component-text" fill="white">• 动态切换</text>
+    <text x="560" y="175" class="component-text" fill="white">• 配置管理</text>
+    
+    <!-- ChatHistoryManager -->
+    <rect x="800" y="80" width="200" height="100" fill="#9b59b6" stroke="#8e44ad" stroke-width="2" rx="10"/>
+    <text x="900" y="105" text-anchor="middle" class="component-title" fill="white">ChatHistoryManager</text>
+    <text x="900" y="125" text-anchor="middle" class="component-text" fill="white">chat_history.py</text>
+    <text x="810" y="145" class="component-text" fill="white">• 会话管理</text>
+    <text x="810" y="160" class="component-text" fill="white">• 历史存储</text>
+    <text x="810" y="175" class="component-text" fill="white">• 会话恢复</text>
+  </g>
+  
+  <!-- 工具组件 -->
+  <g id="tool-components">
+    <!-- 数据分析工具 -->
+    <rect x="50" y="220" width="300" height="120" fill="#27ae60" stroke="#229954" stroke-width="2" rx="10"/>
+    <text x="200" y="245" text-anchor="middle" class="component-title" fill="white">数据分析工具集</text>
+    <text x="200" y="265" text-anchor="middle" class="component-text" fill="white">data_tools.py</text>
+    <text x="60" y="285" class="component-text" fill="white">• CSV文件操作 (list_csv_files, load_csv_file)</text>
+    <text x="60" y="300" class="component-text" fill="white">• 统计分析 (get_column_stats, calculate_summary)</text>
+    <text x="60" y="315" class="component-text" fill="white">• 数据筛选 (filter_data, search_rows)</text>
+    <text x="60" y="330" class="component-text" fill="white">• 聚合分析 (group_by_sum, group_by_aggregate)</text>
+    
+    <!-- 专业分析工具 -->
+    <rect x="400" y="220" width="300" height="120" fill="#1abc9c" stroke="#16a085" stroke-width="2" rx="10"/>
+    <text x="550" y="245" text-anchor="middle" class="component-title" fill="white">专业分析工具</text>
+    <text x="550" y="265" text-anchor="middle" class="component-text" fill="white">data_tools.py</text>
+    <text x="410" y="285" class="component-text" fill="white">• 相关性分析 (calculate_correlation)</text>
+    <text x="410" y="300" class="component-text" fill="white">• 专业分析 (professional_data_analysis)</text>
+    <text x="410" y="315" class="component-text" fill="white">• 报告生成 (generate_pdf_report)</text>
+    <text x="410" y="330" class="component-text" fill="white">• HTML转PDF (generate_html_to_pdf_report)</text>
+    
+    <!-- 可视化工具 -->
+    <rect x="750" y="220" width="300" height="120" fill="#e67e22" stroke="#d35400" stroke-width="2" rx="10"/>
+    <text x="900" y="245" text-anchor="middle" class="component-title" fill="white">可视化工具</text>
+    <text x="900" y="265" text-anchor="middle" class="component-text" fill="white">data_tools.py</text>
+    <text x="760" y="285" class="component-text" fill="white">• 图表生成 (matplotlib, seaborn)</text>
+    <text x="760" y="300" class="component-text" fill="white">• 数据可视化</text>
+    <text x="760" y="315" class="component-text" fill="white">• 报告图表</text>
+    <text x="760" y="330" class="component-text" fill="white">• 统计分析图</text>
+  </g>
+  
+  <!-- 支持组件 -->
+  <g id="support-components">
+    <!-- 日志系统 -->
+    <rect x="50" y="380" width="200" height="100" fill="#34495e" stroke="#2c3e50" stroke-width="2" rx="10"/>
+    <text x="150" y="405" text-anchor="middle" class="component-title" fill="white">日志系统</text>
+    <text x="150" y="425" text-anchor="middle" class="component-text" fill="white">logger.py</text>
+    <text x="60" y="445" class="component-text" fill="white">• 性能监控</text>
+    <text x="60" y="460" class="component-text" fill="white">• 调用记录</text>
+    <text x="60" y="475" class="component-text" fill="white">• 错误追踪</text>
+    
+    <!-- 模型调用日志 -->
+    <rect x="300" y="380" width="200" height="100" fill="#8e44ad" stroke="#7d3c98" stroke-width="2" rx="10"/>
+    <text x="400" y="405" text-anchor="middle" class="component-title" fill="white">模型调用日志</text>
+    <text x="400" y="425" text-anchor="middle" class="component-text" fill="white">model_call_logger.py</text>
+    <text x="310" y="445" class="component-text" fill="white">• 模型调用记录</text>
+    <text x="310" y="460" class="component-text" fill="white">• 工具执行记录</text>
+    <text x="310" y="475" class="component-text" fill="white">• 性能统计</text>
+    
+    <!-- 配置管理 -->
+    <rect x="550" y="380" width="200" height="100" fill="#16a085" stroke="#138d75" stroke-width="2" rx="10"/>
+    <text x="650" y="405" text-anchor="middle" class="component-title" fill="white">配置管理</text>
+    <text x="650" y="425" text-anchor="middle" class="component-text" fill="white">config.yaml</text>
+    <text x="560" y="445" class="component-text" fill="white">• 模型配置</text>
+    <text x="560" y="460" class="component-text" fill="white">• API配置</text>
+    <text x="560" y="475" class="component-text" fill="white">• 应用配置</text>
+    
+    <!-- 数据存储 -->
+    <rect x="800" y="380" width="200" height="100" fill="#e67e22" stroke="#d35400" stroke-width="2" rx="10"/>
+    <text x="900" y="405" text-anchor="middle" class="component-title" fill="white">数据存储</text>
+    <text x="900" y="425" text-anchor="middle" class="component-text" fill="white">data/</text>
+    <text x="810" y="445" class="component-text" fill="white">• CSV数据文件</text>
+    <text x="810" y="460" class="component-text" fill="white">• 会话历史</text>
+    <text x="810" y="475" class="component-text" fill="white">• 日志文件</text>
+  </g>
+  
+  <!-- 外部依赖 -->
+  <g id="external-dependencies">
+    <rect x="50" y="520" width="150" height="80" fill="#ecf0f1" stroke="#bdc3c7" stroke-width="2" rx="5"/>
+    <text x="125" y="540" text-anchor="middle" class="component-title">LangGraph</text>
+    <text x="125" y="555" text-anchor="middle" class="component-text">智能体框架</text>
+    <text x="125" y="570" text-anchor="middle" class="component-text">状态图管理</text>
+    <text x="125" y="585" text-anchor="middle" class="component-text">工具调用</text>
+    
+    <rect x="220" y="520" width="150" height="80" fill="#ecf0f1" stroke="#bdc3c7" stroke-width="2" rx="5"/>
+    <text x="295" y="540" text-anchor="middle" class="component-title">LangChain</text>
+    <text x="295" y="555" text-anchor="middle" class="component-text">LLM集成</text>
+    <text x="295" y="570" text-anchor="middle" class="component-text">工具定义</text>
+    <text x="295" y="585" text-anchor="middle" class="component-text">消息处理</text>
+    
+    <rect x="390" y="520" width="150" height="80" fill="#ecf0f1" stroke="#bdc3c7" stroke-width="2" rx="5"/>
+    <text x="465" y="540" text-anchor="middle" class="component-title">Pandas</text>
+    <text x="465" y="555" text-anchor="middle" class="component-text">数据处理</text>
+    <text x="465" y="570" text-anchor="middle" class="component-text">统计分析</text>
+    <text x="465" y="585" text-anchor="middle" class="component-text">数据操作</text>
+    
+    <rect x="560" y="520" width="150" height="80" fill="#ecf0f1" stroke="#bdc3c7" stroke-width="2" rx="5"/>
+    <text x="635" y="540" text-anchor="middle" class="component-title">Matplotlib</text>
+    <text x="635" y="555" text-anchor="middle" class="component-text">数据可视化</text>
+    <text x="635" y="570" text-anchor="middle" class="component-text">图表生成</text>
+    <text x="635" y="585" text-anchor="middle" class="component-text">统计分析</text>
+    
+    <rect x="730" y="520" width="150" height="80" fill="#ecf0f1" stroke="#bdc3c7" stroke-width="2" rx="5"/>
+    <text x="805" y="540" text-anchor="middle" class="component-title">ReportLab</text>
+    <text x="805" y="555" text-anchor="middle" class="component-text">PDF生成</text>
+    <text x="805" y="570" text-anchor="middle" class="component-text">报告输出</text>
+    <text x="805" y="585" text-anchor="middle" class="component-text">文档处理</text>
+    
+    <rect x="900" y="520" width="150" height="80" fill="#ecf0f1" stroke="#bdc3c7" stroke-width="2" rx="5"/>
+    <text x="975" y="540" text-anchor="middle" class="component-title">OpenAI API</text>
+    <text x="975" y="555" text-anchor="middle" class="component-text">模型调用</text>
+    <text x="975" y="570" text-anchor="middle" class="component-text">流式输出</text>
+    <text x="975" y="585" text-anchor="middle" class="component-text">多模型支持</text>
+  </g>
+  
+  <!-- 组件间连接 -->
+  <!-- CLI 到 Agent -->
+  <line x1="250" y1="130" x2="300" y2="130" class="arrow"/>
+  <text x="275" y="125" class="component-text" fill="#3498db">创建</text>
+  
+  <!-- Agent 到 ModelManager -->
+  <line x1="500" y1="130" x2="550" y2="130" class="arrow"/>
+  <text x="525" y="125" class="component-text" fill="#3498db">使用</text>
+  
+  <!-- Agent 到 ChatHistoryManager -->
+  <line x1="500" y1="150" x2="800" y2="150" class="arrow"/>
+  <text x="650" y="145" class="component-text" fill="#3498db">管理</text>
+  
+  <!-- Agent 到 工具集 -->
+  <line x1="400" y1="180" x2="200" y2="220" class="arrow"/>
+  <text x="300" y="200" class="component-text" fill="#3498db">调用</text>
+  
+  <!-- 工具集到支持组件 -->
+  <line x1="200" y1="340" x2="150" y2="380" class="dependency"/>
+  <line x1="200" y1="340" x2="400" y2="380" class="dependency"/>
+  <line x1="200" y1="340" x2="650" y2="380" class="dependency"/>
+  <line x1="200" y1="340" x2="900" y2="380" class="dependency"/>
+  
+  <!-- 支持组件到外部依赖 -->
+  <line x1="150" y1="480" x2="125" y2="520" class="data-flow"/>
+  <line x1="400" y1="480" x2="295" y2="520" class="data-flow"/>
+  <line x1="650" y1="480" x2="465" y2="520" class="data-flow"/>
+  <line x1="900" y1="480" x2="805" y2="520" class="data-flow"/>
+  
+  <!-- 数据流标签 -->
+  <text x="100" y="500" class="component-text" fill="#27ae60">日志记录</text>
+  <text x="350" y="500" class="component-text" fill="#27ae60">模型调用</text>
+  <text x="600" y="500" class="component-text" fill="#27ae60">数据处理</text>
+  <text x="850" y="500" class="component-text" fill="#27ae60">报告生成</text>
+  
+  <!-- 性能指标 -->
+  <g id="performance">
+    <rect x="50" y="650" width="300" height="100" fill="#f8f9fa" stroke="#6c757d" stroke-width="1" rx="5"/>
+    <text x="200" y="670" text-anchor="middle" class="component-title">性能特性</text>
+    <text x="60" y="690" class="component-text">• 响应时间: &lt; 2秒</text>
+    <text x="60" y="705" class="component-text">• 并发处理: 支持多用户</text>
+    <text x="60" y="720" class="component-text">• 内存管理: 智能释放</text>
+    <text x="60" y="735" class="component-text">• 错误恢复: 自动重试</text>
+  </g>
+  
+  <!-- 安全特性 -->
+  <g id="security">
+    <rect x="400" y="650" width="300" height="100" fill="#f8f9fa" stroke="#6c757d" stroke-width="1" rx="5"/>
+    <text x="550" y="670" text-anchor="middle" class="component-title">安全特性</text>
+    <text x="420" y="690" class="component-text">• API Key 环境变量管理</text>
+    <text x="420" y="705" class="component-text">• 文件路径验证</text>
+    <text x="420" y="720" class="component-text">• 输入参数校验</text>
+    <text x="420" y="735" class="component-text">• 资源使用限制</text>
+  </g>
+  
+  <!-- 扩展性 -->
+  <g id="extensibility">
+    <rect x="750" y="650" width="300" height="100" fill="#f8f9fa" stroke="#6c757d" stroke-width="1" rx="5"/>
+    <text x="900" y="670" text-anchor="middle" class="component-title">扩展性</text>
+    <text x="770" y="690" class="component-text">• 插件化工具系统</text>
+    <text x="770" y="705" class="component-text">• 多模型支持</text>
+    <text x="770" y="720" class="component-text">• 自定义配置</text>
+    <text x="770" y="735" class="component-text">• 模块化架构</text>
+  </g>
+</svg>

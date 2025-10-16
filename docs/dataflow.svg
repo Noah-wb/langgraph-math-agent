@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1400" height="600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .title { font-family: Arial, sans-serif; font-size: 20px; font-weight: bold; fill: #2c3e50; }
+      .step-title { font-family: Arial, sans-serif; font-size: 14px; font-weight: bold; fill: #2c3e50; }
+      .step-text { font-family: Arial, sans-serif; font-size: 12px; fill: #34495e; }
+      .arrow { stroke: #3498db; stroke-width: 3; fill: none; marker-end: url(#arrowhead); }
+      .data-flow { stroke: #e74c3c; stroke-width: 2; fill: none; stroke-dasharray: 5,5; }
+      .feedback { stroke: #27ae60; stroke-width: 2; fill: none; stroke-dasharray: 3,3; }
+    </style>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#3498db" />
+    </marker>
+  </defs>
+  
+  <!-- 标题 -->
+  <text x="700" y="30" text-anchor="middle" class="title">LangGraph 数据分析智能体 - 数据流图</text>
+  
+  <!-- 主流程 -->
+  <g id="main-flow">
+    <!-- 用户输入 -->
+    <rect x="50" y="80" width="120" height="80" fill="#3498db" stroke="#2980b9" stroke-width="2" rx="10"/>
+    <text x="110" y="105" text-anchor="middle" class="step-title" fill="white">用户输入</text>
+    <text x="110" y="125" text-anchor="middle" class="step-text" fill="white">问题/命令</text>
+    <text x="110" y="140" text-anchor="middle" class="step-text" fill="white">数据请求</text>
+    
+    <!-- CLI界面 -->
+    <rect x="220" y="80" width="120" height="80" fill="#e74c3c" stroke="#c0392b" stroke-width="2" rx="10"/>
+    <text x="280" y="105" text-anchor="middle" class="step-title" fill="white">CLI界面</text>
+    <text x="280" y="125" text-anchor="middle" class="step-text" fill="white">命令解析</text>
+    <text x="280" y="140" text-anchor="middle" class="step-text" fill="white">会话管理</text>
+    
+    <!-- Agent处理 -->
+    <rect x="390" y="80" width="120" height="80" fill="#f39c12" stroke="#e67e22" stroke-width="2" rx="10"/>
+    <text x="450" y="105" text-anchor="middle" class="step-title" fill="white">Agent处理</text>
+    <text x="450" y="125" text-anchor="middle" class="step-text" fill="white">LangGraph</text>
+    <text x="450" y="140" text-anchor="middle" class="step-text" fill="white">状态图</text>
+    
+    <!-- 模型推理 -->
+    <rect x="560" y="80" width="120" height="80" fill="#9b59b6" stroke="#8e44ad" stroke-width="2" rx="10"/>
+    <text x="620" y="105" text-anchor="middle" class="step-title" fill="white">模型推理</text>
+    <text x="620" y="125" text-anchor="middle" class="step-text" fill="white">LLM调用</text>
+    <text x="620" y="140" text-anchor="middle" class="step-text" fill="white">工具选择</text>
+    
+    <!-- 工具调用 -->
+    <rect x="730" y="80" width="120" height="80" fill="#27ae60" stroke="#229954" stroke-width="2" rx="10"/>
+    <text x="790" y="105" text-anchor="middle" class="step-title" fill="white">工具调用</text>
+    <text x="790" y="125" text-anchor="middle" class="step-text" fill="white">工具执行</text>
+    <text x="790" y="140" text-anchor="middle" class="step-text" fill="white">结果记录</text>
+    
+    <!-- 数据分析 -->
+    <rect x="900" y="80" width="120" height="80" fill="#1abc9c" stroke="#16a085" stroke-width="2" rx="10"/>
+    <text x="960" y="105" text-anchor="middle" class="step-title" fill="white">数据分析</text>
+    <text x="960" y="125" text-anchor="middle" class="step-text" fill="white">数据处理</text>
+    <text x="960" y="140" text-anchor="middle" class="step-text" fill="white">统计分析</text>
+    
+    <!-- 结果返回 -->
+    <rect x="1070" y="80" width="120" height="80" fill="#34495e" stroke="#2c3e50" stroke-width="2" rx="10"/>
+    <text x="1130" y="105" text-anchor="middle" class="step-title" fill="white">结果返回</text>
+    <text x="1130" y="125" text-anchor="middle" class="step-text" fill="white">流式输出</text>
+    <text x="1130" y="140" text-anchor="middle" class="step-text" fill="white">报告生成</text>
+  </g>
+  
+  <!-- 主流程箭头 -->
+  <line x1="170" y1="120" x2="220" y2="120" class="arrow"/>
+  <line x1="340" y1="120" x2="390" y2="120" class="arrow"/>
+  <line x1="510" y1="120" x2="560" y2="120" class="arrow"/>
+  <line x1="680" y1="120" x2="730" y2="120" class="arrow"/>
+  <line x1="850" y1="120" x2="900" y2="120" class="arrow"/>
+  <line x1="1020" y1="120" x2="1070" y2="120" class="arrow"/>
+  
+  <!-- 详细处理流程 -->
+  <g id="detailed-flow">
+    <!-- 第二层：处理逻辑 -->
+    <rect x="50" y="200" width="120" height="40" fill="#ecf0f1" stroke="#bdc3c7" rx="5"/>
+    <text x="110" y="220" text-anchor="middle" class="step-text">输入验证</text>
+    
+    <rect x="220" y="200" width="120" height="40" fill="#ecf0f1" stroke="#bdc3c7" rx="5"/>
+    <text x="280" y="220" text-anchor="middle" class="step-text">特殊命令</text>
+    
+    <rect x="390" y="200" width="120" height="40" fill="#ecf0f1" stroke="#bdc3c7" rx="5"/>
+    <text x="450" y="220" text-anchor="middle" class="step-text">条件判断</text>
+    
+    <rect x="560" y="200" width="120" height="40" fill="#ecf0f1" stroke="#bdc3c7" rx="5"/>
+    <text x="620" y="220" text-anchor="middle" class="step-text">工具选择</text>
+    
+    <rect x="730" y="200" width="120" height="40" fill="#ecf0f1" stroke="#bdc3c7" rx="5"/>
+    <text x="790" y="220" text-anchor="middle" class="step-text">安全检查</text>
+    
+    <rect x="900" y="200" width="120" height="40" fill="#ecf0f1" stroke="#bdc3c7" rx="5"/>
+    <text x="960" y="220" text-anchor="middle" class="step-text">可视化</text>
+    
+    <rect x="1070" y="200" width="120" height="40" fill="#ecf0f1" stroke="#bdc3c7" rx="5"/>
+    <text x="1130" y="220" text-anchor="middle" class="step-text">用户界面</text>
+    
+    <!-- 第三层：数据管理 -->
+    <rect x="50" y="260" width="120" height="40" fill="#f8f9fa" stroke="#6c757d" rx="5"/>
+    <text x="110" y="280" text-anchor="middle" class="step-text">历史记录</text>
+    
+    <rect x="220" y="260" width="120" height="40" fill="#f8f9fa" stroke="#6c757d" rx="5"/>
+    <text x="280" y="280" text-anchor="middle" class="step-text">状态管理</text>
+    
+    <rect x="390" y="260" width="120" height="40" fill="#f8f9fa" stroke="#6c757d" rx="5"/>
+    <text x="450" y="280" text-anchor="middle" class="step-text">会话管理</text>
+    
+    <rect x="560" y="260" width="120" height="40" fill="#f8f9fa" stroke="#6c757d" rx="5"/>
+    <text x="620" y="280" text-anchor="middle" class="step-text">模型调用</text>
+    
+    <rect x="730" y="260" width="120" height="40" fill="#f8f9fa" stroke="#6c757d" rx="5"/>
+    <text x="790" y="280" text-anchor="middle" class="step-text">Pandas处理</text>
+    
+    <rect x="900" y="260" width="120" height="40" fill="#f8f9fa" stroke="#6c757d" rx="5"/>
+    <text x="960" y="280" text-anchor="middle" class="step-text">PDF生成</text>
+    
+    <rect x="1070" y="260" width="120" height="40" fill="#f8f9fa" stroke="#6c757d" rx="5"/>
+    <text x="1130" y="280" text-anchor="middle" class="step-text">实时反馈</text>
+  </g>
+  
+  <!-- 垂直连接线 -->
+  <line x1="110" y1="160" x2="110" y2="200" class="data-flow"/>
+  <line x1="280" y1="160" x2="280" y2="200" class="data-flow"/>
+  <line x1="450" y1="160" x2="450" y2="200" class="data-flow"/>
+  <line x1="620" y1="160" x2="620" y2="200" class="data-flow"/>
+  <line x1="790" y1="160" x2="790" y2="200" class="data-flow"/>
+  <line x1="960" y1="160" x2="960" y2="200" class="data-flow"/>
+  <line x1="1130" y1="160" x2="1130" y2="200" class="data-flow"/>
+  
+  <line x1="110" y1="240" x2="110" y2="260" class="data-flow"/>
+  <line x1="280" y1="240" x2="280" y2="260" class="data-flow"/>
+  <line x1="450" y1="240" x2="450" y2="260" class="data-flow"/>
+  <line x1="620" y1="240" x2="620" y2="260" class="data-flow"/>
+  <line x1="790" y1="240" x2="790" y2="260" class="data-flow"/>
+  <line x1="960" y1="240" x2="960" y2="260" class="data-flow"/>
+  <line x1="1130" y1="240" x2="1130" y2="260" class="data-flow"/>
+  
+  <!-- 反馈循环 -->
+  <path d="M 1130 120 Q 1300 120 1300 200 Q 1300 280 1130 280" class="feedback"/>
+  <text x="1250" y="140" class="step-text" fill="#27ae60">反馈循环</text>
+  
+  <!-- 日志记录 -->
+  <g id="logging">
+    <rect x="50" y="350" width="200" height="60" fill="#fff3cd" stroke="#ffc107" stroke-width="2" rx="5"/>
+    <text x="150" y="370" text-anchor="middle" class="step-title">日志记录</text>
+    <text x="150" y="385" text-anchor="middle" class="step-text">性能监控</text>
+    <text x="150" y="400" text-anchor="middle" class="step-text">调用追踪</text>
+    
+    <!-- 日志连接线 -->
+    <line x1="150" y1="350" x2="150" y2="300" class="feedback"/>
+    <line x1="150" y1="300" x2="450" y2="300" class="feedback"/>
+    <line x1="450" y1="300" x2="450" y2="200" class="feedback"/>
+  </g>
+  
+  <!-- 配置管理 -->
+  <g id="config">
+    <rect x="300" y="350" width="200" height="60" fill="#d1ecf1" stroke="#17a2b8" stroke-width="2" rx="5"/>
+    <text x="400" y="370" text-anchor="middle" class="step-title">配置管理</text>
+    <text x="400" y="385" text-anchor="middle" class="step-text">模型配置</text>
+    <text x="400" y="400" text-anchor="middle" class="step-text">API管理</text>
+    
+    <!-- 配置连接线 -->
+    <line x1="400" y1="350" x2="400" y2="300" class="feedback"/>
+    <line x1="400" y1="300" x2="620" y2="300" class="feedback"/>
+    <line x1="620" y1="300" x2="620" y2="200" class="feedback"/>
+  </g>
+  
+  <!-- 数据存储 -->
+  <g id="storage">
+    <rect x="550" y="350" width="200" height="60" fill="#d4edda" stroke="#28a745" stroke-width="2" rx="5"/>
+    <text x="650" y="370" text-anchor="middle" class="step-title">数据存储</text>
+    <text x="650" y="385" text-anchor="middle" class="step-text">会话历史</text>
+    <text x="650" y="400" text-anchor="middle" class="step-text">报告文件</text>
+    
+    <!-- 存储连接线 -->
+    <line x1="650" y1="350" x2="650" y2="300" class="feedback"/>
+    <line x1="650" y1="300" x2="790" y2="300" class="feedback"/>
+    <line x1="790" y1="300" x2="790" y2="200" class="feedback"/>
+  </g>
+  
+  <!-- 工具集 -->
+  <g id="tools">
+    <rect x="800" y="350" width="300" height="60" fill="#f8d7da" stroke="#dc3545" stroke-width="2" rx="5"/>
+    <text x="950" y="370" text-anchor="middle" class="step-title">数据分析工具集</text>
+    <text x="950" y="385" text-anchor="middle" class="step-text">CSV操作 • 统计分析 • 可视化</text>
+    <text x="950" y="400" text-anchor="middle" class="step-text">聚合分析 • 报告生成</text>
+    
+    <!-- 工具连接线 -->
+    <line x1="950" y1="350" x2="950" y2="300" class="feedback"/>
+    <line x1="950" y1="300" x2="900" y2="300" class="feedback"/>
+    <line x1="900" y1="300" x2="900" y2="200" class="feedback"/>
+  </g>
+  
+  <!-- 性能指标 -->
+  <g id="metrics">
+    <rect x="50" y="450" width="300" height="100" fill="#e2e3e5" stroke="#6c757d" stroke-width="1" rx="5"/>
+    <text x="200" y="470" text-anchor="middle" class="step-title">性能指标</text>
+    <text x="70" y="490" class="step-text">• 响应时间: &lt; 2秒</text>
+    <text x="70" y="505" class="step-text">• 并发处理: 支持多用户</text>
+    <text x="70" y="520" class="step-text">• 内存使用: 智能管理</text>
+    <text x="70" y="535" class="step-text">• 错误恢复: 自动重试</text>
+  </g>
+  
+  <!-- 安全特性 -->
+  <g id="security">
+    <rect x="400" y="450" width="300" height="100" fill="#e2e3e5" stroke="#6c757d" stroke-width="1" rx="5"/>
+    <text x="550" y="470" text-anchor="middle" class="step-title">安全特性</text>
+    <text x="420" y="490" class="step-text">• API Key 环境变量管理</text>
+    <text x="420" y="505" class="step-text">• 文件路径验证</text>
+    <text x="420" y="520" class="step-text">• 输入参数校验</text>
+    <text x="420" y="535" class="step-text">• 资源使用限制</text>
+  </g>
+  
+  <!-- 扩展性 -->
+  <g id="extensibility">
+    <rect x="750" y="450" width="300" height="100" fill="#e2e3e5" stroke="#6c757d" stroke-width="1" rx="5"/>
+    <text x="900" y="470" text-anchor="middle" class="step-title">扩展性</text>
+    <text x="770" y="490" class="step-text">• 插件化工具系统</text>
+    <text x="770" y="505" class="step-text">• 多模型支持</text>
+    <text x="770" y="520" class="step-text">• 自定义配置</text>
+    <text x="770" y="535" class="step-text">• 模块化架构</text>
+  </g>
+</svg>

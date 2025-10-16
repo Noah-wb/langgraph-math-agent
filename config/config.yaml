@@ -1,0 +1,41 @@
+models:
+  deepseek:
+    name: "deepseek-chat"
+    base_url: "https://api.deepseek.com/v1"
+    api_key_env: "DEEPSEEK_API_KEY"
+    DEEPSEEK_API_KEY: "sk-797762b3a4ee44c8b315d748b36cc9f6"
+    temperature: 0.7
+    max_tokens: 2000
+    
+  glm:
+    name: "glm-4"
+    base_url: "https://open.bigmodel.cn/api/paas/v4"
+    api_key_env: "GLM_API_KEY"
+    temperature: 0.7
+    max_tokens: 2000
+    
+  kimi:
+    name: "moonshot-v1-8k"
+    base_url: "https://api.moonshot.cn/v1"
+    api_key_env: "KIMI_API_KEY"
+    temperature: 0.7
+    max_tokens: 2000
+
+default_model: "deepseek"
+
+# 应用配置
+app:
+  # 是否显示模型选择菜单
+  show_model_selection: false
+  # 直接使用默认模型
+  auto_use_default: true
+
+chat_history:
+  directory: "./chat_history"
+  max_sessions: 10
+
+# 数据分析配置
+data_analysis:
+  csv_directory: "./data"
+  max_file_size_mb: 50
+  max_rows_display: 100

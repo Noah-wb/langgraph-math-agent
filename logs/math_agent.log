@@ -1,0 +1,857 @@
+2025-10-15 15:48:52 [INFO] math_agent:40: 日志系统初始化成功
+2025-10-15 15:48:54 [DEBUG] math_agent.test:25: 这是调试信息
+2025-10-15 15:48:54 [INFO] math_agent.test:26: 这是信息日志
+2025-10-15 15:48:54 [WARNING] math_agent.test:27: 这是警告信息
+2025-10-15 15:48:54 [ERROR] math_agent.test:28: 这是错误信息
+2025-10-15 15:48:54 [DEBUG] math_agent.test:161: 开始执行: 测试操作
+2025-10-15 15:48:54 [INFO] math_agent.test:170: 执行完成: 测试操作 耗时 0.101s
+2025-10-15 15:48:54 [INFO] math_agent.model:39: 配置文件加载成功: config/config.yaml
+2025-10-15 15:48:54 [INFO] math_agent.model:32: 模型管理器初始化完成
+2025-10-15 15:48:54 [INFO] math_agent.history:29: 历史管理器初始化完成，存储目录: ./chat_history
+2025-10-15 15:48:54 [INFO] math_agent.agent:37: 数学智能体初始化完成
+2025-10-15 15:48:54 [DEBUG] math_agent.model:161: 开始执行: 切换到模型: deepseek
+2025-10-15 15:48:54 [INFO] math_agent.model:71: 开始切换到模型: deepseek
+2025-10-15 15:48:56 [INFO] math_agent.model:97: 成功切换到模型: deepseek
+2025-10-15 15:48:56 [INFO] math_agent.model:170: 执行完成: 切换到模型: deepseek 耗时 1.810s
+2025-10-15 15:49:11 [INFO] math_agent:40: 日志系统初始化成功
+2025-10-15 15:49:11 [INFO] math_agent.model:39: 配置文件加载成功: config/config.yaml
+2025-10-15 15:49:11 [INFO] math_agent.model:32: 模型管理器初始化完成
+2025-10-15 15:49:11 [INFO] math_agent.history:29: 历史管理器初始化完成，存储目录: ./chat_history
+2025-10-15 15:49:11 [INFO] math_agent.main:31: CLI 初始化完成
+2025-10-15 15:49:11 [DEBUG] math_agent.model:161: 开始执行: 切换到模型: deepseek
+2025-10-15 15:49:11 [INFO] math_agent.model:71: 开始切换到模型: deepseek
+2025-10-15 15:49:13 [INFO] math_agent.model:97: 成功切换到模型: deepseek
+2025-10-15 15:49:13 [INFO] math_agent.model:170: 执行完成: 切换到模型: deepseek 耗时 1.744s
+2025-10-15 15:49:13 [INFO] math_agent.agent:37: 数学智能体初始化完成
+2025-10-15 15:49:14 [INFO] httpx:1025: HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-15 15:50:43 [INFO] math_agent:40: 日志系统初始化成功
+2025-10-15 15:50:43 [INFO] math_agent.model:39: 配置文件加载成功: config/config.yaml
+2025-10-15 15:50:43 [INFO] math_agent.model:32: 模型管理器初始化完成
+2025-10-15 15:50:43 [INFO] math_agent.history:29: 历史管理器初始化完成，存储目录: ./chat_history
+2025-10-15 15:50:43 [INFO] math_agent.agent:37: 数学智能体初始化完成
+2025-10-15 15:50:43 [DEBUG] math_agent.model:161: 开始执行: 切换到模型: deepseek
+2025-10-15 15:50:43 [INFO] math_agent.model:71: 开始切换到模型: deepseek
+2025-10-15 15:50:44 [INFO] math_agent.model:97: 成功切换到模型: deepseek
+2025-10-15 15:50:44 [INFO] math_agent.model:170: 执行完成: 切换到模型: deepseek 耗时 1.750s
+2025-10-15 15:51:35 [INFO] math_agent:40: 日志系统初始化成功
+2025-10-15 15:51:36 [INFO] math_agent.model:39: 配置文件加载成功: config/config.yaml
+2025-10-15 15:51:36 [INFO] math_agent.model:32: 模型管理器初始化完成
+2025-10-15 15:51:36 [INFO] math_agent.history:29: 历史管理器初始化完成，存储目录: ./chat_history
+2025-10-15 15:51:36 [INFO] math_agent.agent:37: 数学智能体初始化完成
+2025-10-15 15:51:36 [DEBUG] math_agent.model:161: 开始执行: 切换到模型: deepseek
+2025-10-15 15:51:36 [INFO] math_agent.model:71: 开始切换到模型: deepseek
+2025-10-15 15:51:37 [INFO] math_agent.model:97: 成功切换到模型: deepseek
+2025-10-15 15:51:37 [INFO] math_agent.model:170: 执行完成: 切换到模型: deepseek 耗时 1.833s
+2025-10-15 15:53:26 [INFO] math_agent:40: 日志系统初始化成功
+2025-10-15 15:53:26 [INFO] math_agent.model:39: 配置文件加载成功: config/config.yaml
+2025-10-15 15:53:26 [INFO] math_agent.model:32: 模型管理器初始化完成
+2025-10-15 15:53:26 [INFO] math_agent.history:29: 历史管理器初始化完成，存储目录: ./chat_history
+2025-10-15 15:53:26 [INFO] math_agent.main:31: CLI 初始化完成
+2025-10-15 15:53:26 [DEBUG] math_agent.model:161: 开始执行: 切换到模型: deepseek
+2025-10-15 15:53:26 [INFO] math_agent.model:71: 开始切换到模型: deepseek
+2025-10-15 15:53:26 [INFO] math_agent.model:79: 从配置文件获取 deepseek API Key
+2025-10-15 15:53:28 [INFO] math_agent.model:97: 成功切换到模型: deepseek
+2025-10-15 15:53:28 [INFO] math_agent.model:170: 执行完成: 切换到模型: deepseek 耗时 1.605s
+2025-10-15 15:53:28 [INFO] math_agent.agent:37: 数学智能体初始化完成
+2025-10-15 15:53:32 [INFO] httpx:1025: HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-15 15:53:45 [INFO] httpx:1025: HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-15 15:54:11 [INFO] httpx:1025: HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-15 15:59:07 [INFO] math_agent:40: 日志系统初始化成功
+2025-10-15 15:59:07 [INFO] math_agent.model:40: 配置文件加载成功: config/config.yaml
+2025-10-15 15:59:07 [INFO] math_agent.model:33: 模型管理器初始化完成
+2025-10-15 15:59:07 [INFO] math_agent.history:29: 历史管理器初始化完成，存储目录: ./chat_history
+2025-10-15 15:59:07 [INFO] math_agent.agent:39: 数学智能体初始化完成
+2025-10-15 15:59:07 [DEBUG] math_agent.model:161: 开始执行: 切换到模型: deepseek
+2025-10-15 15:59:07 [INFO] math_agent.model:72: 开始切换到模型: deepseek
+2025-10-15 15:59:09 [INFO] math_agent.model:98: 成功切换到模型: deepseek
+2025-10-15 15:59:09 [INFO] model_calls:96: 🔄 模型切换: deepseek -> deepseek
+2025-10-15 15:59:09 [INFO] model_calls:98: 切换原因: 用户手动切换
+2025-10-15 15:59:09 [INFO] math_agent.model:170: 执行完成: 切换到模型: deepseek 耗时 1.769s
+2025-10-15 15:59:33 [INFO] math_agent:40: 日志系统初始化成功
+2025-10-15 15:59:33 [INFO] math_agent.model:40: 配置文件加载成功: config/config.yaml
+2025-10-15 15:59:33 [INFO] math_agent.model:33: 模型管理器初始化完成
+2025-10-15 15:59:33 [INFO] math_agent.history:29: 历史管理器初始化完成，存储目录: ./chat_history
+2025-10-15 15:59:33 [INFO] math_agent.agent:39: 数学智能体初始化完成
+2025-10-15 15:59:33 [DEBUG] math_agent.model:161: 开始执行: 切换到模型: deepseek
+2025-10-15 15:59:33 [INFO] math_agent.model:72: 开始切换到模型: deepseek
+2025-10-15 15:59:35 [INFO] math_agent.model:98: 成功切换到模型: deepseek
+2025-10-15 15:59:35 [INFO] model_calls:96: 🔄 模型切换: deepseek -> deepseek
+2025-10-15 15:59:35 [INFO] model_calls:98: 切换原因: 用户手动切换
+2025-10-15 15:59:35 [INFO] math_agent.model:170: 执行完成: 切换到模型: deepseek 耗时 1.796s
+2025-10-15 15:59:35 [INFO] model_calls:66: 🚀 模型调用开始 - ID: call_1760515175418, 模型: deepseek, 会话: unknown
+2025-10-15 15:59:35 [INFO] model_calls:73: 📤 发送请求 - 调用ID: call_1760515175418
+2025-10-15 15:59:36 [INFO] httpx:1025: HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-15 15:59:38 [INFO] model_calls:79: 📥 收到响应 - 调用ID: call_1760515175418, 耗时: 3.499s
+2025-10-15 15:59:38 [INFO] model_calls:111: 💬 直接回复用户 - 调用ID: call_1760515175418
+2025-10-15 15:59:55 [INFO] math_agent:40: 日志系统初始化成功
+2025-10-15 15:59:56 [INFO] math_agent.model:40: 配置文件加载成功: config/config.yaml
+2025-10-15 15:59:56 [INFO] math_agent.model:33: 模型管理器初始化完成
+2025-10-15 15:59:56 [INFO] math_agent.history:29: 历史管理器初始化完成，存储目录: ./chat_history
+2025-10-15 15:59:56 [INFO] math_agent.agent:39: 数学智能体初始化完成
+2025-10-15 15:59:56 [DEBUG] math_agent.model:161: 开始执行: 切换到模型: deepseek
+2025-10-15 15:59:56 [INFO] math_agent.model:72: 开始切换到模型: deepseek
+2025-10-15 15:59:57 [INFO] math_agent.model:98: 成功切换到模型: deepseek
+2025-10-15 15:59:57 [INFO] model_calls:100: 🔄 模型切换: deepseek -> deepseek
+2025-10-15 15:59:57 [INFO] model_calls:102: 切换原因: 用户手动切换
+2025-10-15 15:59:57 [INFO] math_agent.model:170: 执行完成: 切换到模型: deepseek 耗时 1.797s
+2025-10-15 15:59:57 [INFO] model_calls:66: 🚀 模型调用开始 - ID: call_1760515197823, 模型: deepseek, 会话: unknown
+2025-10-15 15:59:57 [INFO] model_calls:73: 📤 发送请求 - 调用ID: call_1760515197823
+2025-10-15 15:59:58 [INFO] httpx:1025: HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-15 16:00:00 [INFO] model_calls:79: 📥 收到响应 - 调用ID: call_1760515197823, 耗时: 3.031s
+2025-10-15 16:00:00 [INFO] model_calls:115: 💬 直接回复用户 - 调用ID: call_1760515197823
+2025-10-15 16:00:00 [INFO] model_calls:96: ✅ 调用完成 - 调用ID: call_1760515197823, 总耗时: 3.032s, 消耗tokens: 170
+2025-10-15 16:00:00 [INFO] model_calls:66: 🚀 模型调用开始 - ID: call_1760515200858, 模型: deepseek, 会话: unknown
+2025-10-15 16:00:00 [INFO] model_calls:73: 📤 发送请求 - 调用ID: call_1760515200858
+2025-10-15 16:00:01 [INFO] httpx:1025: HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-15 16:00:08 [INFO] model_calls:79: 📥 收到响应 - 调用ID: call_1760515200858, 耗时: 7.820s
+2025-10-15 16:00:08 [INFO] model_calls:115: 💬 直接回复用户 - 调用ID: call_1760515200858
+2025-10-15 16:00:08 [INFO] model_calls:96: ✅ 调用完成 - 调用ID: call_1760515200858, 总耗时: 7.824s, 消耗tokens: 305
+2025-10-15 16:00:32 [INFO] math_agent:40: 日志系统初始化成功
+2025-10-15 16:00:32 [INFO] math_agent.model:40: 配置文件加载成功: config/config.yaml
+2025-10-15 16:00:32 [INFO] math_agent.model:33: 模型管理器初始化完成
+2025-10-15 16:00:32 [INFO] math_agent.history:29: 历史管理器初始化完成，存储目录: ./chat_history
+2025-10-15 16:00:32 [INFO] math_agent.agent:39: 数学智能体初始化完成
+2025-10-15 16:00:32 [DEBUG] math_agent.model:161: 开始执行: 切换到模型: deepseek
+2025-10-15 16:00:32 [INFO] math_agent.model:72: 开始切换到模型: deepseek
+2025-10-15 16:00:34 [INFO] math_agent.model:98: 成功切换到模型: deepseek
+2025-10-15 16:00:34 [INFO] model_calls:100: 🔄 模型切换: deepseek -> deepseek
+2025-10-15 16:00:34 [INFO] model_calls:102: 切换原因: 用户手动切换
+2025-10-15 16:00:34 [INFO] math_agent.model:170: 执行完成: 切换到模型: deepseek 耗时 1.861s
+2025-10-15 16:00:34 [INFO] model_calls:66: 🚀 模型调用开始 - ID: call_1760515234302, 模型: deepseek, 会话: unknown
+2025-10-15 16:00:34 [INFO] model_calls:73: 📤 发送请求 - 调用ID: call_1760515234302
+2025-10-15 16:00:34 [INFO] httpx:1025: HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-15 16:00:37 [INFO] model_calls:79: 📥 收到响应 - 调用ID: call_1760515234302, 耗时: 3.676s
+2025-10-15 16:00:37 [INFO] model_calls:115: 💬 直接回复用户 - 调用ID: call_1760515234302
+2025-10-15 16:00:37 [INFO] model_calls:96: ✅ 调用完成 - 调用ID: call_1760515234302, 总耗时: 3.679s, 消耗tokens: 176
+2025-10-15 16:00:37 [INFO] model_calls:66: 🚀 模型调用开始 - ID: call_1760515237987, 模型: deepseek, 会话: unknown
+2025-10-15 16:00:37 [INFO] model_calls:73: 📤 发送请求 - 调用ID: call_1760515237987
+2025-10-15 16:00:38 [INFO] httpx:1025: HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-15 16:00:40 [INFO] model_calls:79: 📥 收到响应 - 调用ID: call_1760515237987, 耗时: 2.917s
+2025-10-15 16:00:40 [INFO] model_calls:115: 💬 直接回复用户 - 调用ID: call_1760515237987
+2025-10-15 16:00:40 [INFO] model_calls:96: ✅ 调用完成 - 调用ID: call_1760515237987, 总耗时: 2.918s, 消耗tokens: 231
+2025-10-15 16:00:40 [INFO] model_calls:66: 🚀 模型调用开始 - ID: call_1760515240910, 模型: deepseek, 会话: unknown
+2025-10-15 16:00:40 [INFO] model_calls:73: 📤 发送请求 - 调用ID: call_1760515240910
+2025-10-15 16:00:41 [INFO] httpx:1025: HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-15 16:00:46 [INFO] model_calls:79: 📥 收到响应 - 调用ID: call_1760515240910, 耗时: 5.606s
+2025-10-15 16:00:46 [INFO] model_calls:115: 💬 直接回复用户 - 调用ID: call_1760515240910
+2025-10-15 16:00:46 [INFO] model_calls:96: ✅ 调用完成 - 调用ID: call_1760515240910, 总耗时: 5.608s, 消耗tokens: 351
+2025-10-15 16:00:46 [INFO] model_calls:66: 🚀 模型调用开始 - ID: call_1760515246523, 模型: deepseek, 会话: unknown
+2025-10-15 16:00:46 [INFO] model_calls:73: 📤 发送请求 - 调用ID: call_1760515246523
+2025-10-15 16:00:46 [INFO] httpx:1025: HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-15 16:00:50 [INFO] model_calls:79: 📥 收到响应 - 调用ID: call_1760515246523, 耗时: 3.613s
+2025-10-15 16:00:50 [INFO] model_calls:115: 💬 直接回复用户 - 调用ID: call_1760515246523
+2025-10-15 16:00:50 [INFO] model_calls:96: ✅ 调用完成 - 调用ID: call_1760515246523, 总耗时: 3.614s, 消耗tokens: 403
+2025-10-15 16:01:22 [INFO] math_agent:40: 日志系统初始化成功
+2025-10-15 16:01:22 [INFO] math_agent.model:40: 配置文件加载成功: config/config.yaml
+2025-10-15 16:01:22 [INFO] math_agent.model:33: 模型管理器初始化完成
+2025-10-15 16:01:22 [INFO] math_agent.history:29: 历史管理器初始化完成，存储目录: ./chat_history
+2025-10-15 16:01:22 [INFO] math_agent.agent:39: 数学智能体初始化完成
+2025-10-15 16:01:22 [DEBUG] math_agent.model:161: 开始执行: 切换到模型: deepseek
+2025-10-15 16:01:22 [INFO] math_agent.model:72: 开始切换到模型: deepseek
+2025-10-15 16:01:24 [INFO] math_agent.model:98: 成功切换到模型: deepseek
+2025-10-15 16:01:24 [INFO] model_calls:100: 🔄 模型切换: deepseek -> deepseek
+2025-10-15 16:01:24 [INFO] model_calls:102: 切换原因: 用户手动切换
+2025-10-15 16:01:24 [INFO] math_agent.model:170: 执行完成: 切换到模型: deepseek 耗时 1.933s
+2025-10-15 16:01:24 [INFO] model_calls:66: 🚀 模型调用开始 - ID: call_1760515284787, 模型: deepseek, 会话: unknown
+2025-10-15 16:01:24 [INFO] model_calls:73: 📤 发送请求 - 调用ID: call_1760515284787
+2025-10-15 16:01:25 [INFO] httpx:1025: HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-15 16:01:27 [INFO] model_calls:79: 📥 收到响应 - 调用ID: call_1760515284787, 耗时: 2.949s
+2025-10-15 16:01:27 [INFO] model_calls:108: 🔧 决定使用工具 - 调用ID: call_1760515284787
+2025-10-15 16:01:27 [INFO] model_calls:113:   工具 1: multiply({'a': 15, 'b': 8})
+2025-10-15 16:01:27 [INFO] model_calls:96: ✅ 调用完成 - 调用ID: call_1760515284787, 总耗时: 2.950s, 消耗tokens: 668
+2025-10-15 16:01:27 [INFO] model_calls:66: 🚀 模型调用开始 - ID: call_1760515287751, 模型: deepseek, 会话: unknown
+2025-10-15 16:01:27 [INFO] model_calls:73: 📤 发送请求 - 调用ID: call_1760515287751
+2025-10-15 16:01:28 [INFO] httpx:1025: HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-10-15 16:01:28 [ERROR] model_calls:84: ❌ 调用失败 - 调用ID: call_1760515287751, 耗时: 0.267s, 错误: Error code: 400 - {'error': {'message': "Messages with role 'tool' must be a response to a preceding message with 'tool_calls'", 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_request_error'}}
+2025-10-15 16:03:11 [INFO] math_agent:40: 日志系统初始化成功
+2025-10-15 16:03:11 [INFO] math_agent.model:40: 配置文件加载成功: config/config.yaml
+2025-10-15 16:03:11 [INFO] math_agent.model:33: 模型管理器初始化完成
+2025-10-15 16:03:11 [INFO] math_agent.history:29: 历史管理器初始化完成，存储目录: ./chat_history
+2025-10-15 16:03:11 [INFO] math_agent.main:31: CLI 初始化完成
+2025-10-15 16:03:11 [DEBUG] math_agent.model:161: 开始执行: 切换到模型: deepseek
+2025-10-15 16:03:11 [INFO] math_agent.model:72: 开始切换到模型: deepseek
+2025-10-15 16:03:11 [INFO] math_agent.model:80: 从配置文件获取 deepseek API Key
+2025-10-15 16:03:13 [INFO] math_agent.model:98: 成功切换到模型: deepseek
+2025-10-15 16:03:13 [INFO] model_calls:100: 🔄 模型切换: deepseek -> deepseek
+2025-10-15 16:03:13 [INFO] model_calls:102: 切换原因: 用户手动切换
+2025-10-15 16:03:13 [INFO] math_agent.model:170: 执行完成: 切换到模型: deepseek 耗时 1.577s
+2025-10-15 16:03:13 [INFO] math_agent.agent:39: 数学智能体初始化完成
+2025-10-15 16:03:23 [INFO] model_calls:66: 🚀 模型调用开始 - ID: call_1760515403098, 模型: deepseek, 会话: unknown
+2025-10-15 16:03:23 [INFO] model_calls:73: 📤 发送请求 - 调用ID: call_1760515403098
+2025-10-15 16:03:23 [INFO] httpx:1025: HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-15 16:03:26 [INFO] model_calls:79: 📥 收到响应 - 调用ID: call_1760515403098, 耗时: 3.328s
+2025-10-15 16:03:26 [INFO] model_calls:108: 🔧 决定使用工具 - 调用ID: call_1760515403098
+2025-10-15 16:03:26 [INFO] model_calls:113:   工具 1: multiply({'a': 521, 'b': 845})
+2025-10-15 16:03:26 [INFO] model_calls:96: ✅ 调用完成 - 调用ID: call_1760515403098, 总耗时: 3.329s, 消耗tokens: 663
+2025-10-15 16:03:26 [INFO] model_calls:66: 🚀 模型调用开始 - ID: call_1760515406437, 模型: deepseek, 会话: unknown
+2025-10-15 16:03:26 [INFO] model_calls:73: 📤 发送请求 - 调用ID: call_1760515406437
+2025-10-15 16:03:26 [INFO] httpx:1025: HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-10-15 16:03:26 [ERROR] model_calls:84: ❌ 调用失败 - 调用ID: call_1760515406437, 耗时: 0.223s, 错误: Error code: 400 - {'error': {'message': "Messages with role 'tool' must be a response to a preceding message with 'tool_calls'", 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_request_error'}}
+2025-10-15 16:05:14 [INFO] math_agent:40: 日志系统初始化成功
+2025-10-15 16:05:14 [INFO] math_agent.model:40: 配置文件加载成功: config/config.yaml
+2025-10-15 16:05:14 [INFO] math_agent.model:33: 模型管理器初始化完成
+2025-10-15 16:05:14 [INFO] math_agent.history:29: 历史管理器初始化完成，存储目录: ./chat_history
+2025-10-15 16:05:14 [INFO] math_agent.agent:39: 数学智能体初始化完成
+2025-10-15 16:05:29 [INFO] math_agent:40: 日志系统初始化成功
+2025-10-15 16:05:29 [INFO] math_agent.model:40: 配置文件加载成功: config/config.yaml
+2025-10-15 16:05:29 [INFO] math_agent.model:33: 模型管理器初始化完成
+2025-10-15 16:05:29 [INFO] math_agent.history:29: 历史管理器初始化完成，存储目录: ./chat_history
+2025-10-15 16:05:29 [INFO] math_agent.agent:39: 数学智能体初始化完成
+2025-10-15 16:05:29 [DEBUG] math_agent.model:161: 开始执行: 切换到模型: deepseek
+2025-10-15 16:05:29 [INFO] math_agent.model:72: 开始切换到模型: deepseek
+2025-10-15 16:05:30 [INFO] math_agent.model:98: 成功切换到模型: deepseek
+2025-10-15 16:05:30 [INFO] model_calls:100: 🔄 模型切换: deepseek -> deepseek
+2025-10-15 16:05:30 [INFO] model_calls:102: 切换原因: 用户手动切换
+2025-10-15 16:05:30 [INFO] math_agent.model:170: 执行完成: 切换到模型: deepseek 耗时 1.772s
+2025-10-15 16:05:30 [INFO] model_calls:66: 🚀 模型调用开始 - ID: call_1760515530924, 模型: deepseek, 会话: unknown
+2025-10-15 16:05:30 [INFO] model_calls:73: 📤 发送请求 - 调用ID: call_1760515530924
+2025-10-15 16:05:31 [INFO] httpx:1025: HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-15 16:05:33 [INFO] model_calls:79: 📥 收到响应 - 调用ID: call_1760515530924, 耗时: 3.063s
+2025-10-15 16:05:33 [INFO] model_calls:108: 🔧 决定使用工具 - 调用ID: call_1760515530924
+2025-10-15 16:05:33 [INFO] model_calls:113:   工具 1: add({'a': 5, 'b': 3})
+2025-10-15 16:05:33 [INFO] model_calls:96: ✅ 调用完成 - 调用ID: call_1760515530924, 总耗时: 3.064s, 消耗tokens: 661
+2025-10-15 16:05:34 [INFO] model_calls:66: 🚀 模型调用开始 - ID: call_1760515534003, 模型: deepseek, 会话: unknown
+2025-10-15 16:05:34 [INFO] model_calls:73: 📤 发送请求 - 调用ID: call_1760515534003
+2025-10-15 16:05:34 [INFO] httpx:1025: HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-10-15 16:05:34 [ERROR] model_calls:84: ❌ 调用失败 - 调用ID: call_1760515534003, 耗时: 0.232s, 错误: Error code: 400 - {'error': {'message': "Messages with role 'tool' must be a response to a preceding message with 'tool_calls'", 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_request_error'}}
+2025-10-15 16:05:54 [INFO] math_agent:40: 日志系统初始化成功
+2025-10-15 16:05:54 [INFO] math_agent.model:40: 配置文件加载成功: config/config.yaml
+2025-10-15 16:05:54 [INFO] math_agent.model:33: 模型管理器初始化完成
+2025-10-15 16:05:54 [INFO] math_agent.history:29: 历史管理器初始化完成，存储目录: ./chat_history
+2025-10-15 16:05:54 [INFO] math_agent.agent:39: 数学智能体初始化完成
+2025-10-15 16:05:54 [DEBUG] math_agent.model:161: 开始执行: 切换到模型: deepseek
+2025-10-15 16:05:54 [INFO] math_agent.model:72: 开始切换到模型: deepseek
+2025-10-15 16:05:56 [INFO] math_agent.model:98: 成功切换到模型: deepseek
+2025-10-15 16:05:56 [INFO] model_calls:100: 🔄 模型切换: deepseek -> deepseek
+2025-10-15 16:05:56 [INFO] model_calls:102: 切换原因: 用户手动切换
+2025-10-15 16:05:56 [INFO] math_agent.model:170: 执行完成: 切换到模型: deepseek 耗时 1.722s
+2025-10-15 16:05:56 [INFO] model_calls:66: 🚀 模型调用开始 - ID: call_1760515556703, 模型: deepseek, 会话: unknown
+2025-10-15 16:05:56 [INFO] model_calls:73: 📤 发送请求 - 调用ID: call_1760515556703
+2025-10-15 16:05:57 [INFO] httpx:1025: HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-15 16:05:59 [INFO] model_calls:79: 📥 收到响应 - 调用ID: call_1760515556703, 耗时: 2.723s
+2025-10-15 16:05:59 [INFO] model_calls:108: 🔧 决定使用工具 - 调用ID: call_1760515556703
+2025-10-15 16:05:59 [INFO] model_calls:113:   工具 1: add({'a': 5, 'b': 3})
+2025-10-15 16:05:59 [INFO] model_calls:96: ✅ 调用完成 - 调用ID: call_1760515556703, 总耗时: 2.723s, 消耗tokens: 661
+2025-10-15 16:05:59 [INFO] model_calls:122: ⚙️ 开始执行工具 - 调用ID: tool_1760515559429, 工具: add
+2025-10-15 16:05:59 [ERROR] model_calls:134: ❌ 工具执行失败 - 调用ID: tool_1760515559429, 工具: add, 耗时: 0.000s, 错误: 'super' object has no attribute '__call__'
+2025-10-15 16:06:10 [INFO] math_agent:40: 日志系统初始化成功
+2025-10-15 16:06:10 [INFO] math_agent.model:40: 配置文件加载成功: config/config.yaml
+2025-10-15 16:06:10 [INFO] math_agent.model:33: 模型管理器初始化完成
+2025-10-15 16:06:10 [INFO] math_agent.history:29: 历史管理器初始化完成，存储目录: ./chat_history
+2025-10-15 16:06:10 [INFO] math_agent.agent:39: 数学智能体初始化完成
+2025-10-15 16:06:10 [DEBUG] math_agent.model:161: 开始执行: 切换到模型: deepseek
+2025-10-15 16:06:10 [INFO] math_agent.model:72: 开始切换到模型: deepseek
+2025-10-15 16:06:11 [INFO] math_agent.model:98: 成功切换到模型: deepseek
+2025-10-15 16:06:11 [INFO] model_calls:100: 🔄 模型切换: deepseek -> deepseek
+2025-10-15 16:06:11 [INFO] model_calls:102: 切换原因: 用户手动切换
+2025-10-15 16:06:11 [INFO] math_agent.model:170: 执行完成: 切换到模型: deepseek 耗时 1.683s
+2025-10-15 16:06:11 [INFO] model_calls:66: 🚀 模型调用开始 - ID: call_1760515571881, 模型: deepseek, 会话: unknown
+2025-10-15 16:06:11 [INFO] model_calls:73: 📤 发送请求 - 调用ID: call_1760515571881
+2025-10-15 16:06:12 [INFO] httpx:1025: HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-15 16:06:14 [INFO] model_calls:79: 📥 收到响应 - 调用ID: call_1760515571881, 耗时: 2.894s
+2025-10-15 16:06:14 [INFO] model_calls:108: 🔧 决定使用工具 - 调用ID: call_1760515571881
+2025-10-15 16:06:14 [INFO] model_calls:113:   工具 1: add({'a': 5, 'b': 3})
+2025-10-15 16:06:14 [INFO] model_calls:96: ✅ 调用完成 - 调用ID: call_1760515571881, 总耗时: 2.896s, 消耗tokens: 661
+2025-10-15 16:06:14 [INFO] model_calls:122: ⚙️ 开始执行工具 - 调用ID: tool_1760515574781, 工具: add
+2025-10-15 16:06:14 [ERROR] model_calls:134: ❌ 工具执行失败 - 调用ID: tool_1760515574781, 工具: add, 耗时: 0.000s, 错误: 'super' object has no attribute '__call__'
+2025-10-15 16:06:24 [INFO] math_agent:40: 日志系统初始化成功
+2025-10-15 16:06:24 [INFO] math_agent.model:40: 配置文件加载成功: config/config.yaml
+2025-10-15 16:06:24 [INFO] math_agent.model:33: 模型管理器初始化完成
+2025-10-15 16:06:24 [INFO] math_agent.history:29: 历史管理器初始化完成，存储目录: ./chat_history
+2025-10-15 16:06:24 [INFO] math_agent.agent:39: 数学智能体初始化完成
+2025-10-15 16:06:24 [DEBUG] math_agent.model:161: 开始执行: 切换到模型: deepseek
+2025-10-15 16:06:24 [INFO] math_agent.model:72: 开始切换到模型: deepseek
+2025-10-15 16:06:26 [INFO] math_agent.model:98: 成功切换到模型: deepseek
+2025-10-15 16:06:26 [INFO] model_calls:100: 🔄 模型切换: deepseek -> deepseek
+2025-10-15 16:06:26 [INFO] model_calls:102: 切换原因: 用户手动切换
+2025-10-15 16:06:26 [INFO] math_agent.model:170: 执行完成: 切换到模型: deepseek 耗时 1.676s
+2025-10-15 16:06:26 [INFO] model_calls:66: 🚀 模型调用开始 - ID: call_1760515586378, 模型: deepseek, 会话: unknown
+2025-10-15 16:06:26 [INFO] model_calls:73: 📤 发送请求 - 调用ID: call_1760515586378
+2025-10-15 16:06:34 [INFO] httpx:1025: HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-15 16:06:36 [INFO] model_calls:79: 📥 收到响应 - 调用ID: call_1760515586378, 耗时: 10.545s
+2025-10-15 16:06:36 [INFO] model_calls:108: 🔧 决定使用工具 - 调用ID: call_1760515586378
+2025-10-15 16:06:36 [INFO] model_calls:113:   工具 1: add({'a': 5, 'b': 3})
+2025-10-15 16:06:36 [INFO] model_calls:96: ✅ 调用完成 - 调用ID: call_1760515586378, 总耗时: 10.546s, 消耗tokens: 661
+2025-10-15 16:06:36 [INFO] model_calls:122: ⚙️ 开始执行工具 - 调用ID: tool_1760515596926, 工具: add
+2025-10-15 16:06:36 [ERROR] model_calls:134: ❌ 工具执行失败 - 调用ID: tool_1760515596926, 工具: add, 耗时: 0.000s, 错误: ToolNode.__init__() takes 2 positional arguments but 3 were given
+2025-10-15 16:07:03 [INFO] math_agent:40: 日志系统初始化成功
+2025-10-15 16:07:03 [INFO] math_agent.model:40: 配置文件加载成功: config/config.yaml
+2025-10-15 16:07:03 [INFO] math_agent.model:33: 模型管理器初始化完成
+2025-10-15 16:07:03 [INFO] math_agent.history:29: 历史管理器初始化完成，存储目录: ./chat_history
+2025-10-15 16:07:03 [INFO] math_agent.agent:39: 数学智能体初始化完成
+2025-10-15 16:07:03 [DEBUG] math_agent.model:161: 开始执行: 切换到模型: deepseek
+2025-10-15 16:07:03 [INFO] math_agent.model:72: 开始切换到模型: deepseek
+2025-10-15 16:07:05 [INFO] math_agent.model:98: 成功切换到模型: deepseek
+2025-10-15 16:07:05 [INFO] model_calls:100: 🔄 模型切换: deepseek -> deepseek
+2025-10-15 16:07:05 [INFO] model_calls:102: 切换原因: 用户手动切换
+2025-10-15 16:07:05 [INFO] math_agent.model:170: 执行完成: 切换到模型: deepseek 耗时 1.735s
+2025-10-15 16:07:05 [INFO] model_calls:66: 🚀 模型调用开始 - ID: call_1760515625580, 模型: deepseek, 会话: unknown
+2025-10-15 16:07:05 [INFO] model_calls:73: 📤 发送请求 - 调用ID: call_1760515625580
+2025-10-15 16:07:06 [INFO] httpx:1025: HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-15 16:07:08 [INFO] model_calls:79: 📥 收到响应 - 调用ID: call_1760515625580, 耗时: 2.671s
+2025-10-15 16:07:08 [INFO] model_calls:108: 🔧 决定使用工具 - 调用ID: call_1760515625580
+2025-10-15 16:07:08 [INFO] model_calls:113:   工具 1: add({'a': 5, 'b': 3})
+2025-10-15 16:07:08 [INFO] model_calls:96: ✅ 调用完成 - 调用ID: call_1760515625580, 总耗时: 2.671s, 消耗tokens: 663
+2025-10-15 16:07:08 [INFO] model_calls:122: ⚙️ 开始执行工具 - 调用ID: tool_1760515628251, 工具: add
+2025-10-15 16:07:08 [ERROR] model_calls:134: ❌ 工具执行失败 - 调用ID: tool_1760515628251, 工具: add, 耗时: 0.000s, 错误: 'ToolNode' object is not callable
+2025-10-15 16:07:25 [INFO] math_agent:40: 日志系统初始化成功
+2025-10-15 16:07:25 [INFO] math_agent.model:40: 配置文件加载成功: config/config.yaml
+2025-10-15 16:07:25 [INFO] math_agent.model:33: 模型管理器初始化完成
+2025-10-15 16:07:25 [INFO] math_agent.history:29: 历史管理器初始化完成，存储目录: ./chat_history
+2025-10-15 16:07:25 [INFO] math_agent.agent:39: 数学智能体初始化完成
+2025-10-15 16:07:25 [DEBUG] math_agent.model:161: 开始执行: 切换到模型: deepseek
+2025-10-15 16:07:25 [INFO] math_agent.model:72: 开始切换到模型: deepseek
+2025-10-15 16:07:27 [INFO] math_agent.model:98: 成功切换到模型: deepseek
+2025-10-15 16:07:27 [INFO] model_calls:100: 🔄 模型切换: deepseek -> deepseek
+2025-10-15 16:07:27 [INFO] model_calls:102: 切换原因: 用户手动切换
+2025-10-15 16:07:27 [INFO] math_agent.model:170: 执行完成: 切换到模型: deepseek 耗时 1.723s
+2025-10-15 16:07:27 [INFO] model_calls:66: 🚀 模型调用开始 - ID: call_1760515647335, 模型: deepseek, 会话: unknown
+2025-10-15 16:07:27 [INFO] model_calls:73: 📤 发送请求 - 调用ID: call_1760515647335
+2025-10-15 16:07:28 [INFO] httpx:1025: HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-15 16:07:30 [INFO] model_calls:79: 📥 收到响应 - 调用ID: call_1760515647335, 耗时: 3.103s
+2025-10-15 16:07:30 [INFO] model_calls:108: 🔧 决定使用工具 - 调用ID: call_1760515647335
+2025-10-15 16:07:30 [INFO] model_calls:113:   工具 1: add({'a': 5, 'b': 3})
+2025-10-15 16:07:30 [INFO] model_calls:96: ✅ 调用完成 - 调用ID: call_1760515647335, 总耗时: 3.104s, 消耗tokens: 661
+2025-10-15 16:07:30 [INFO] model_calls:122: ⚙️ 开始执行工具 - 调用ID: tool_1760515650441, 工具: add
+2025-10-15 16:07:30 [INFO] model_calls:128: ✅ 工具执行完成 - 调用ID: tool_1760515650441, 工具: add, 耗时: 0.002s
+2025-10-15 16:07:30 [INFO] model_calls:66: 🚀 模型调用开始 - ID: call_1760515650453, 模型: deepseek, 会话: unknown
+2025-10-15 16:07:30 [INFO] model_calls:73: 📤 发送请求 - 调用ID: call_1760515650453
+2025-10-15 16:07:30 [INFO] httpx:1025: HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-10-15 16:07:30 [ERROR] model_calls:84: ❌ 调用失败 - 调用ID: call_1760515650453, 耗时: 0.221s, 错误: Error code: 400 - {'error': {'message': "Messages with role 'tool' must be a response to a preceding message with 'tool_calls'", 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_request_error'}}
+2025-10-15 16:08:04 [INFO] math_agent:40: 日志系统初始化成功
+2025-10-15 16:08:04 [INFO] math_agent.model:40: 配置文件加载成功: config/config.yaml
+2025-10-15 16:08:04 [INFO] math_agent.model:33: 模型管理器初始化完成
+2025-10-15 16:08:04 [INFO] math_agent.history:29: 历史管理器初始化完成，存储目录: ./chat_history
+2025-10-15 16:08:04 [INFO] math_agent.agent:39: 数学智能体初始化完成
+2025-10-15 16:08:04 [DEBUG] math_agent.model:161: 开始执行: 切换到模型: deepseek
+2025-10-15 16:08:04 [INFO] math_agent.model:72: 开始切换到模型: deepseek
+2025-10-15 16:08:06 [INFO] math_agent.model:98: 成功切换到模型: deepseek
+2025-10-15 16:08:06 [INFO] model_calls:100: 🔄 模型切换: deepseek -> deepseek
+2025-10-15 16:08:06 [INFO] model_calls:102: 切换原因: 用户手动切换
+2025-10-15 16:08:06 [INFO] math_agent.model:170: 执行完成: 切换到模型: deepseek 耗时 1.742s
+2025-10-15 16:08:06 [INFO] model_calls:66: 🚀 模型调用开始 - ID: call_1760515686411, 模型: deepseek, 会话: unknown
+2025-10-15 16:08:06 [INFO] model_calls:73: 📤 发送请求 - 调用ID: call_1760515686411
+2025-10-15 16:08:07 [INFO] httpx:1025: HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-15 16:08:09 [INFO] model_calls:79: 📥 收到响应 - 调用ID: call_1760515686411, 耗时: 3.258s
+2025-10-15 16:08:09 [INFO] model_calls:108: 🔧 决定使用工具 - 调用ID: call_1760515686411
+2025-10-15 16:08:09 [INFO] model_calls:113:   工具 1: add({'a': 5, 'b': 3})
+2025-10-15 16:08:09 [INFO] model_calls:96: ✅ 调用完成 - 调用ID: call_1760515686411, 总耗时: 3.259s, 消耗tokens: 663
+2025-10-15 16:08:09 [INFO] model_calls:122: ⚙️ 开始执行工具 - 调用ID: tool_1760515689671, 工具: add
+2025-10-15 16:08:09 [INFO] model_calls:128: ✅ 工具执行完成 - 调用ID: tool_1760515689671, 工具: add, 耗时: 0.000s
+2025-10-15 16:08:50 [INFO] math_agent:40: 日志系统初始化成功
+2025-10-15 16:08:50 [INFO] math_agent.model:40: 配置文件加载成功: config/config.yaml
+2025-10-15 16:08:50 [INFO] math_agent.model:33: 模型管理器初始化完成
+2025-10-15 16:08:50 [INFO] math_agent.history:29: 历史管理器初始化完成，存储目录: ./chat_history
+2025-10-15 16:08:50 [INFO] math_agent.agent:39: 数学智能体初始化完成
+2025-10-15 16:08:50 [DEBUG] math_agent.model:161: 开始执行: 切换到模型: deepseek
+2025-10-15 16:08:50 [INFO] math_agent.model:72: 开始切换到模型: deepseek
+2025-10-15 16:08:52 [INFO] math_agent.model:98: 成功切换到模型: deepseek
+2025-10-15 16:08:52 [INFO] model_calls:100: 🔄 模型切换: deepseek -> deepseek
+2025-10-15 16:08:52 [INFO] model_calls:102: 切换原因: 用户手动切换
+2025-10-15 16:08:52 [INFO] math_agent.model:170: 执行完成: 切换到模型: deepseek 耗时 1.916s
+2025-10-15 16:08:52 [INFO] model_calls:66: 🚀 模型调用开始 - ID: call_1760515732292, 模型: deepseek, 会话: unknown
+2025-10-15 16:08:52 [INFO] model_calls:73: 📤 发送请求 - 调用ID: call_1760515732292
+2025-10-15 16:08:52 [INFO] httpx:1025: HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-15 16:08:55 [INFO] model_calls:79: 📥 收到响应 - 调用ID: call_1760515732292, 耗时: 3.013s
+2025-10-15 16:08:55 [INFO] model_calls:108: 🔧 决定使用工具 - 调用ID: call_1760515732292
+2025-10-15 16:08:55 [INFO] model_calls:113:   工具 1: add({'a': 5, 'b': 3})
+2025-10-15 16:08:55 [INFO] model_calls:96: ✅ 调用完成 - 调用ID: call_1760515732292, 总耗时: 3.015s, 消耗tokens: 548
+2025-10-15 16:08:55 [INFO] model_calls:122: ⚙️ 开始执行工具 - 调用ID: tool_1760515735309, 工具: add
+2025-10-15 16:08:55 [INFO] model_calls:128: ✅ 工具执行完成 - 调用ID: tool_1760515735309, 工具: add, 耗时: 0.001s
+2025-10-15 16:08:55 [INFO] model_calls:66: 🚀 模型调用开始 - ID: call_1760515735321, 模型: deepseek, 会话: unknown
+2025-10-15 16:08:55 [INFO] model_calls:73: 📤 发送请求 - 调用ID: call_1760515735321
+2025-10-15 16:08:55 [INFO] httpx:1025: HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-10-15 16:08:55 [ERROR] model_calls:84: ❌ 调用失败 - 调用ID: call_1760515735321, 耗时: 0.215s, 错误: Error code: 400 - {'error': {'message': "Messages with role 'tool' must be a response to a preceding message with 'tool_calls'", 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_request_error'}}
+2025-10-15 16:09:38 [INFO] math_agent:40: 日志系统初始化成功
+2025-10-15 16:09:38 [INFO] math_agent.model:40: 配置文件加载成功: config/config.yaml
+2025-10-15 16:09:38 [INFO] math_agent.model:33: 模型管理器初始化完成
+2025-10-15 16:09:38 [INFO] math_agent.history:29: 历史管理器初始化完成，存储目录: ./chat_history
+2025-10-15 16:09:38 [INFO] math_agent.agent:39: 数学智能体初始化完成
+2025-10-15 16:09:38 [DEBUG] math_agent.model:161: 开始执行: 切换到模型: deepseek
+2025-10-15 16:09:38 [INFO] math_agent.model:72: 开始切换到模型: deepseek
+2025-10-15 16:09:40 [INFO] math_agent.model:98: 成功切换到模型: deepseek
+2025-10-15 16:09:40 [INFO] model_calls:100: 🔄 模型切换: deepseek -> deepseek
+2025-10-15 16:09:40 [INFO] model_calls:102: 切换原因: 用户手动切换
+2025-10-15 16:09:40 [INFO] math_agent.model:170: 执行完成: 切换到模型: deepseek 耗时 1.714s
+2025-10-15 16:09:41 [INFO] httpx:1025: HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-15 16:10:03 [INFO] math_agent:40: 日志系统初始化成功
+2025-10-15 16:10:03 [INFO] math_agent.model:40: 配置文件加载成功: config/config.yaml
+2025-10-15 16:10:03 [INFO] math_agent.model:33: 模型管理器初始化完成
+2025-10-15 16:10:03 [INFO] math_agent.history:29: 历史管理器初始化完成，存储目录: ./chat_history
+2025-10-15 16:10:03 [INFO] math_agent.agent:39: 数学智能体初始化完成
+2025-10-15 16:10:03 [DEBUG] math_agent.model:161: 开始执行: 切换到模型: deepseek
+2025-10-15 16:10:03 [INFO] math_agent.model:72: 开始切换到模型: deepseek
+2025-10-15 16:10:05 [INFO] math_agent.model:98: 成功切换到模型: deepseek
+2025-10-15 16:10:05 [INFO] model_calls:100: 🔄 模型切换: deepseek -> deepseek
+2025-10-15 16:10:05 [INFO] model_calls:102: 切换原因: 用户手动切换
+2025-10-15 16:10:05 [INFO] math_agent.model:170: 执行完成: 切换到模型: deepseek 耗时 2.083s
+2025-10-15 16:10:05 [INFO] model_calls:66: 🚀 模型调用开始 - ID: call_1760515805710, 模型: deepseek, 会话: unknown
+2025-10-15 16:10:05 [INFO] model_calls:73: 📤 发送请求 - 调用ID: call_1760515805710
+2025-10-15 16:10:07 [INFO] httpx:1025: HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-15 16:10:09 [INFO] model_calls:79: 📥 收到响应 - 调用ID: call_1760515805710, 耗时: 3.931s
+2025-10-15 16:10:09 [INFO] model_calls:108: 🔧 决定使用工具 - 调用ID: call_1760515805710
+2025-10-15 16:10:09 [INFO] model_calls:113:   工具 1: add({'a': 5, 'b': 3})
+2025-10-15 16:10:09 [INFO] model_calls:96: ✅ 调用完成 - 调用ID: call_1760515805710, 总耗时: 3.931s, 消耗tokens: 661
+2025-10-15 16:10:09 [INFO] model_calls:122: ⚙️ 开始执行工具 - 调用ID: tool_1760515809643, 工具: add
+2025-10-15 16:10:09 [INFO] model_calls:128: ✅ 工具执行完成 - 调用ID: tool_1760515809643, 工具: add, 耗时: 0.000s
+2025-10-15 16:10:09 [INFO] model_calls:66: 🚀 模型调用开始 - ID: call_1760515809655, 模型: deepseek, 会话: unknown
+2025-10-15 16:10:09 [INFO] model_calls:73: 📤 发送请求 - 调用ID: call_1760515809655
+2025-10-15 16:10:09 [INFO] httpx:1025: HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-10-15 16:10:09 [ERROR] model_calls:84: ❌ 调用失败 - 调用ID: call_1760515809655, 耗时: 0.212s, 错误: Error code: 400 - {'error': {'message': "Messages with role 'tool' must be a response to a preceding message with 'tool_calls'", 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_request_error'}}
+2025-10-15 16:10:40 [INFO] math_agent:40: 日志系统初始化成功
+2025-10-15 16:10:40 [INFO] math_agent.model:40: 配置文件加载成功: config/config.yaml
+2025-10-15 16:10:40 [INFO] math_agent.model:33: 模型管理器初始化完成
+2025-10-15 16:10:40 [INFO] math_agent.history:29: 历史管理器初始化完成，存储目录: ./chat_history
+2025-10-15 16:10:40 [INFO] math_agent.agent:39: 数学智能体初始化完成
+2025-10-15 16:10:40 [DEBUG] math_agent.model:161: 开始执行: 切换到模型: deepseek
+2025-10-15 16:10:40 [INFO] math_agent.model:72: 开始切换到模型: deepseek
+2025-10-15 16:10:42 [INFO] math_agent.model:98: 成功切换到模型: deepseek
+2025-10-15 16:10:42 [INFO] model_calls:100: 🔄 模型切换: deepseek -> deepseek
+2025-10-15 16:10:42 [INFO] model_calls:102: 切换原因: 用户手动切换
+2025-10-15 16:10:42 [INFO] math_agent.model:170: 执行完成: 切换到模型: deepseek 耗时 1.718s
+2025-10-15 16:10:59 [INFO] math_agent:40: 日志系统初始化成功
+2025-10-15 16:10:59 [INFO] math_agent.model:40: 配置文件加载成功: config/config.yaml
+2025-10-15 16:10:59 [INFO] math_agent.model:33: 模型管理器初始化完成
+2025-10-15 16:10:59 [INFO] math_agent.history:29: 历史管理器初始化完成，存储目录: ./chat_history
+2025-10-15 16:10:59 [INFO] math_agent.agent:39: 数学智能体初始化完成
+2025-10-15 16:10:59 [DEBUG] math_agent.model:161: 开始执行: 切换到模型: deepseek
+2025-10-15 16:10:59 [INFO] math_agent.model:72: 开始切换到模型: deepseek
+2025-10-15 16:11:01 [INFO] math_agent.model:98: 成功切换到模型: deepseek
+2025-10-15 16:11:01 [INFO] model_calls:100: 🔄 模型切换: deepseek -> deepseek
+2025-10-15 16:11:01 [INFO] model_calls:102: 切换原因: 用户手动切换
+2025-10-15 16:11:01 [INFO] math_agent.model:170: 执行完成: 切换到模型: deepseek 耗时 1.721s
+2025-10-15 16:11:01 [INFO] model_calls:66: 🚀 模型调用开始 - ID: call_1760515861368, 模型: deepseek, 会话: unknown
+2025-10-15 16:11:01 [INFO] model_calls:73: 📤 发送请求 - 调用ID: call_1760515861368
+2025-10-15 16:11:02 [INFO] httpx:1025: HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-15 16:11:04 [INFO] model_calls:79: 📥 收到响应 - 调用ID: call_1760515861368, 耗时: 3.102s
+2025-10-15 16:11:04 [INFO] model_calls:108: 🔧 决定使用工具 - 调用ID: call_1760515861368
+2025-10-15 16:11:04 [INFO] model_calls:113:   工具 1: add({'a': 5, 'b': 3})
+2025-10-15 16:11:04 [INFO] model_calls:96: ✅ 调用完成 - 调用ID: call_1760515861368, 总耗时: 3.103s, 消耗tokens: 663
+2025-10-15 16:11:04 [INFO] model_calls:122: ⚙️ 开始执行工具 - 调用ID: tool_1760515864472, 工具: add
+2025-10-15 16:11:04 [INFO] model_calls:128: ✅ 工具执行完成 - 调用ID: tool_1760515864472, 工具: add, 耗时: 0.002s
+2025-10-15 16:11:04 [INFO] model_calls:66: 🚀 模型调用开始 - ID: call_1760515864487, 模型: deepseek, 会话: unknown
+2025-10-15 16:11:04 [INFO] model_calls:73: 📤 发送请求 - 调用ID: call_1760515864487
+2025-10-15 16:11:04 [INFO] httpx:1025: HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-10-15 16:11:04 [ERROR] model_calls:84: ❌ 调用失败 - 调用ID: call_1760515864487, 耗时: 0.249s, 错误: Error code: 400 - {'error': {'message': "Messages with role 'tool' must be a response to a preceding message with 'tool_calls'", 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_request_error'}}
+2025-10-15 16:11:29 [INFO] math_agent:40: 日志系统初始化成功
+2025-10-15 16:11:29 [INFO] math_agent.model:40: 配置文件加载成功: config/config.yaml
+2025-10-15 16:11:29 [INFO] math_agent.model:33: 模型管理器初始化完成
+2025-10-15 16:11:29 [INFO] math_agent.history:29: 历史管理器初始化完成，存储目录: ./chat_history
+2025-10-15 16:11:29 [INFO] math_agent.agent:39: 数学智能体初始化完成
+2025-10-15 16:11:29 [DEBUG] math_agent.model:161: 开始执行: 切换到模型: deepseek
+2025-10-15 16:11:29 [INFO] math_agent.model:72: 开始切换到模型: deepseek
+2025-10-15 16:11:31 [INFO] math_agent.model:98: 成功切换到模型: deepseek
+2025-10-15 16:11:31 [INFO] model_calls:100: 🔄 模型切换: deepseek -> deepseek
+2025-10-15 16:11:31 [INFO] model_calls:102: 切换原因: 用户手动切换
+2025-10-15 16:11:31 [INFO] math_agent.model:170: 执行完成: 切换到模型: deepseek 耗时 1.726s
+2025-10-15 16:11:32 [INFO] httpx:1025: HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-15 16:11:54 [INFO] math_agent:40: 日志系统初始化成功
+2025-10-15 16:11:54 [INFO] math_agent.model:40: 配置文件加载成功: config/config.yaml
+2025-10-15 16:11:54 [INFO] math_agent.model:33: 模型管理器初始化完成
+2025-10-15 16:11:54 [INFO] math_agent.history:29: 历史管理器初始化完成，存储目录: ./chat_history
+2025-10-15 16:11:54 [INFO] math_agent.agent:39: 数学智能体初始化完成
+2025-10-15 16:11:54 [DEBUG] math_agent.model:161: 开始执行: 切换到模型: deepseek
+2025-10-15 16:11:54 [INFO] math_agent.model:72: 开始切换到模型: deepseek
+2025-10-15 16:11:56 [INFO] math_agent.model:98: 成功切换到模型: deepseek
+2025-10-15 16:11:56 [INFO] model_calls:100: 🔄 模型切换: deepseek -> deepseek
+2025-10-15 16:11:56 [INFO] model_calls:102: 切换原因: 用户手动切换
+2025-10-15 16:11:56 [INFO] math_agent.model:170: 执行完成: 切换到模型: deepseek 耗时 1.803s
+2025-10-15 16:11:56 [INFO] model_calls:66: 🚀 模型调用开始 - ID: call_1760515916086, 模型: deepseek, 会话: unknown
+2025-10-15 16:11:56 [INFO] model_calls:73: 📤 发送请求 - 调用ID: call_1760515916086
+2025-10-15 16:11:56 [INFO] httpx:1025: HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-15 16:11:58 [INFO] model_calls:79: 📥 收到响应 - 调用ID: call_1760515916086, 耗时: 2.165s
+2025-10-15 16:11:58 [INFO] model_calls:115: 💬 直接回复用户 - 调用ID: call_1760515916086
+2025-10-15 16:11:58 [INFO] model_calls:96: ✅ 调用完成 - 调用ID: call_1760515916086, 总耗时: 2.165s, 消耗tokens: 554
+2025-10-15 16:12:05 [INFO] math_agent:40: 日志系统初始化成功
+2025-10-15 16:12:05 [INFO] math_agent.model:40: 配置文件加载成功: config/config.yaml
+2025-10-15 16:12:05 [INFO] math_agent.model:33: 模型管理器初始化完成
+2025-10-15 16:12:05 [INFO] math_agent.history:29: 历史管理器初始化完成，存储目录: ./chat_history
+2025-10-15 16:12:05 [INFO] math_agent.agent:39: 数学智能体初始化完成
+2025-10-15 16:12:05 [DEBUG] math_agent.model:161: 开始执行: 切换到模型: deepseek
+2025-10-15 16:12:05 [INFO] math_agent.model:72: 开始切换到模型: deepseek
+2025-10-15 16:12:07 [INFO] math_agent.model:98: 成功切换到模型: deepseek
+2025-10-15 16:12:07 [INFO] model_calls:100: 🔄 模型切换: deepseek -> deepseek
+2025-10-15 16:12:07 [INFO] model_calls:102: 切换原因: 用户手动切换
+2025-10-15 16:12:07 [INFO] math_agent.model:170: 执行完成: 切换到模型: deepseek 耗时 1.703s
+2025-10-15 16:12:07 [INFO] model_calls:66: 🚀 模型调用开始 - ID: call_1760515927529, 模型: deepseek, 会话: unknown
+2025-10-15 16:12:07 [INFO] model_calls:73: 📤 发送请求 - 调用ID: call_1760515927529
+2025-10-15 16:12:08 [INFO] httpx:1025: HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-15 16:12:10 [INFO] model_calls:79: 📥 收到响应 - 调用ID: call_1760515927529, 耗时: 3.012s
+2025-10-15 16:12:10 [INFO] model_calls:108: 🔧 决定使用工具 - 调用ID: call_1760515927529
+2025-10-15 16:12:10 [INFO] model_calls:113:   工具 1: add({'a': 5, 'b': 3})
+2025-10-15 16:12:10 [INFO] model_calls:96: ✅ 调用完成 - 调用ID: call_1760515927529, 总耗时: 3.013s, 消耗tokens: 661
+2025-10-15 16:12:10 [INFO] model_calls:122: ⚙️ 开始执行工具 - 调用ID: tool_1760515930547, 工具: add
+2025-10-15 16:12:10 [INFO] model_calls:128: ✅ 工具执行完成 - 调用ID: tool_1760515930547, 工具: add, 耗时: 0.002s
+2025-10-15 16:12:10 [INFO] model_calls:66: 🚀 模型调用开始 - ID: call_1760515930559, 模型: deepseek, 会话: unknown
+2025-10-15 16:12:10 [INFO] model_calls:73: 📤 发送请求 - 调用ID: call_1760515930559
+2025-10-15 16:12:10 [INFO] httpx:1025: HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-10-15 16:12:10 [ERROR] model_calls:84: ❌ 调用失败 - 调用ID: call_1760515930559, 耗时: 0.199s, 错误: Error code: 400 - {'error': {'message': "Messages with role 'tool' must be a response to a preceding message with 'tool_calls'", 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_request_error'}}
+2025-10-15 16:13:35 [INFO] math_agent:40: 日志系统初始化成功
+2025-10-15 16:13:35 [INFO] math_agent.model:40: 配置文件加载成功: config/config.yaml
+2025-10-15 16:13:35 [INFO] math_agent.model:33: 模型管理器初始化完成
+2025-10-15 16:13:35 [INFO] math_agent.history:29: 历史管理器初始化完成，存储目录: ./chat_history
+2025-10-15 16:13:35 [INFO] math_agent.main:31: CLI 初始化完成
+2025-10-15 16:13:35 [DEBUG] math_agent.model:161: 开始执行: 切换到模型: deepseek
+2025-10-15 16:13:35 [INFO] math_agent.model:72: 开始切换到模型: deepseek
+2025-10-15 16:13:36 [INFO] math_agent.model:98: 成功切换到模型: deepseek
+2025-10-15 16:13:36 [INFO] model_calls:100: 🔄 模型切换: deepseek -> deepseek
+2025-10-15 16:13:36 [INFO] model_calls:102: 切换原因: 用户手动切换
+2025-10-15 16:13:36 [INFO] math_agent.model:170: 执行完成: 切换到模型: deepseek 耗时 1.701s
+2025-10-15 16:13:36 [INFO] math_agent.agent:39: 数学智能体初始化完成
+2025-10-15 16:14:50 [INFO] math_agent:40: 日志系统初始化成功
+2025-10-15 16:14:50 [INFO] math_agent.model:40: 配置文件加载成功: config/config.yaml
+2025-10-15 16:14:50 [INFO] math_agent.model:33: 模型管理器初始化完成
+2025-10-15 16:14:50 [INFO] math_agent.history:29: 历史管理器初始化完成，存储目录: ./chat_history
+2025-10-15 16:14:50 [INFO] math_agent.main:31: CLI 初始化完成
+2025-10-15 16:14:50 [DEBUG] math_agent.model:161: 开始执行: 切换到模型: deepseek
+2025-10-15 16:14:50 [INFO] math_agent.model:72: 开始切换到模型: deepseek
+2025-10-15 16:14:50 [INFO] math_agent.model:80: 从配置文件获取 deepseek API Key
+2025-10-15 16:14:52 [INFO] math_agent.model:98: 成功切换到模型: deepseek
+2025-10-15 16:14:52 [INFO] model_calls:100: 🔄 模型切换: deepseek -> deepseek
+2025-10-15 16:14:52 [INFO] model_calls:102: 切换原因: 用户手动切换
+2025-10-15 16:14:52 [INFO] math_agent.model:170: 执行完成: 切换到模型: deepseek 耗时 1.604s
+2025-10-15 16:14:52 [INFO] math_agent.agent:39: 数学智能体初始化完成
+2025-10-15 16:14:59 [INFO] model_calls:66: 🚀 模型调用开始 - ID: call_1760516099664, 模型: deepseek, 会话: unknown
+2025-10-15 16:14:59 [INFO] model_calls:73: 📤 发送请求 - 调用ID: call_1760516099664
+2025-10-15 16:15:00 [INFO] httpx:1025: HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-15 16:15:02 [INFO] model_calls:79: 📥 收到响应 - 调用ID: call_1760516099664, 耗时: 3.086s
+2025-10-15 16:15:02 [INFO] model_calls:108: 🔧 决定使用工具 - 调用ID: call_1760516099664
+2025-10-15 16:15:02 [INFO] model_calls:113:   工具 1: multiply({'a': 854, 'b': 8745})
+2025-10-15 16:15:02 [INFO] model_calls:96: ✅ 调用完成 - 调用ID: call_1760516099664, 总耗时: 3.087s, 消耗tokens: 666
+2025-10-15 16:15:02 [INFO] model_calls:122: ⚙️ 开始执行工具 - 调用ID: tool_1760516102754, 工具: multiply
+2025-10-15 16:15:02 [INFO] model_calls:128: ✅ 工具执行完成 - 调用ID: tool_1760516102754, 工具: multiply, 耗时: 0.000s
+2025-10-15 16:15:02 [INFO] model_calls:66: 🚀 模型调用开始 - ID: call_1760516102764, 模型: deepseek, 会话: unknown
+2025-10-15 16:15:02 [INFO] model_calls:73: 📤 发送请求 - 调用ID: call_1760516102764
+2025-10-15 16:15:02 [INFO] httpx:1025: HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-10-15 16:15:02 [ERROR] model_calls:84: ❌ 调用失败 - 调用ID: call_1760516102764, 耗时: 0.221s, 错误: Error code: 400 - {'error': {'message': "Messages with role 'tool' must be a response to a preceding message with 'tool_calls'", 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_request_error'}}
+2025-10-15 16:19:25 [INFO] math_agent:40: 日志系统初始化成功
+2025-10-15 16:19:25 [INFO] math_agent.model:40: 配置文件加载成功: config/config.yaml
+2025-10-15 16:19:25 [INFO] math_agent.model:33: 模型管理器初始化完成
+2025-10-15 16:19:25 [INFO] math_agent.history:29: 历史管理器初始化完成，存储目录: ./chat_history
+2025-10-15 16:19:25 [INFO] math_agent.main:31: CLI 初始化完成
+2025-10-15 16:19:25 [DEBUG] math_agent.model:161: 开始执行: 切换到模型: deepseek
+2025-10-15 16:19:25 [INFO] math_agent.model:72: 开始切换到模型: deepseek
+2025-10-15 16:19:26 [INFO] math_agent.model:98: 成功切换到模型: deepseek
+2025-10-15 16:19:26 [INFO] model_calls:100: 🔄 模型切换: deepseek -> deepseek
+2025-10-15 16:19:26 [INFO] model_calls:102: 切换原因: 用户手动切换
+2025-10-15 16:19:26 [INFO] math_agent.model:170: 执行完成: 切换到模型: deepseek 耗时 1.778s
+2025-10-15 16:19:27 [INFO] math_agent.agent:39: 数学智能体初始化完成
+2025-10-15 16:23:56 [INFO] math_agent:40: 日志系统初始化成功
+2025-10-15 16:23:56 [INFO] math_agent.model:40: 配置文件加载成功: config/config.yaml
+2025-10-15 16:23:56 [INFO] math_agent.model:33: 模型管理器初始化完成
+2025-10-15 16:23:56 [INFO] math_agent.history:29: 历史管理器初始化完成，存储目录: ./chat_history
+2025-10-15 16:23:56 [INFO] math_agent.main:31: CLI 初始化完成
+2025-10-15 16:23:56 [DEBUG] math_agent.model:161: 开始执行: 切换到模型: deepseek
+2025-10-15 16:23:56 [INFO] math_agent.model:72: 开始切换到模型: deepseek
+2025-10-15 16:23:56 [INFO] math_agent.model:80: 从配置文件获取 deepseek API Key
+2025-10-15 16:23:57 [INFO] math_agent.model:98: 成功切换到模型: deepseek
+2025-10-15 16:23:57 [INFO] model_calls:100: 🔄 模型切换: deepseek -> deepseek
+2025-10-15 16:23:57 [INFO] model_calls:102: 切换原因: 用户手动切换
+2025-10-15 16:23:57 [INFO] math_agent.model:170: 执行完成: 切换到模型: deepseek 耗时 1.692s
+2025-10-15 16:23:57 [INFO] math_agent.agent:39: 数学智能体初始化完成
+2025-10-15 16:24:08 [INFO] model_calls:66: 🚀 模型调用开始 - ID: call_1760516648650, 模型: deepseek, 会话: unknown
+2025-10-15 16:24:08 [INFO] model_calls:73: 📤 发送请求 - 调用ID: call_1760516648650
+2025-10-15 16:24:09 [INFO] httpx:1025: HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-15 16:24:12 [INFO] model_calls:79: 📥 收到响应 - 调用ID: call_1760516648650, 耗时: 3.971s
+2025-10-15 16:24:12 [INFO] model_calls:108: 🔧 决定使用工具 - 调用ID: call_1760516648650
+2025-10-15 16:24:12 [INFO] model_calls:113:   工具 1: multiply({'a': 8451354, 'b': 8451})
+2025-10-15 16:24:12 [INFO] model_calls:96: ✅ 调用完成 - 调用ID: call_1760516648650, 总耗时: 3.972s, 消耗tokens: 677
+2025-10-15 16:24:12 [INFO] model_calls:122: ⚙️ 开始执行工具 - 调用ID: tool_1760516652625, 工具: multiply
+2025-10-15 16:24:12 [INFO] model_calls:128: ✅ 工具执行完成 - 调用ID: tool_1760516652625, 工具: multiply, 耗时: 0.001s
+2025-10-15 16:24:12 [INFO] model_calls:66: 🚀 模型调用开始 - ID: call_1760516652635, 模型: deepseek, 会话: unknown
+2025-10-15 16:24:12 [INFO] model_calls:73: 📤 发送请求 - 调用ID: call_1760516652635
+2025-10-15 16:24:12 [INFO] httpx:1025: HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-15 16:24:14 [INFO] model_calls:79: 📥 收到响应 - 调用ID: call_1760516652635, 耗时: 2.112s
+2025-10-15 16:24:14 [INFO] model_calls:115: 💬 直接回复用户 - 调用ID: call_1760516652635
+2025-10-15 16:24:14 [INFO] model_calls:96: ✅ 调用完成 - 调用ID: call_1760516652635, 总耗时: 2.117s, 消耗tokens: 582
+2025-10-15 16:27:00 [INFO] math_agent:40: 日志系统初始化成功
+2025-10-15 16:27:00 [INFO] math_agent.model:40: 配置文件加载成功: config/config.yaml
+2025-10-15 16:27:00 [INFO] math_agent.model:33: 模型管理器初始化完成
+2025-10-15 16:27:00 [INFO] math_agent.history:29: 历史管理器初始化完成，存储目录: ./chat_history
+2025-10-15 16:27:00 [INFO] math_agent.agent:39: 数学智能体初始化完成
+2025-10-15 16:27:11 [INFO] math_agent:40: 日志系统初始化成功
+2025-10-15 16:27:11 [INFO] math_agent.model:40: 配置文件加载成功: config/config.yaml
+2025-10-15 16:27:11 [INFO] math_agent.model:33: 模型管理器初始化完成
+2025-10-15 16:27:11 [DEBUG] math_agent.model:161: 开始执行: 切换到模型: deepseek
+2025-10-15 16:27:11 [INFO] math_agent.model:72: 开始切换到模型: deepseek
+2025-10-15 16:27:13 [INFO] math_agent.model:98: 成功切换到模型: deepseek
+2025-10-15 16:27:13 [INFO] model_calls:100: 🔄 模型切换: deepseek -> deepseek
+2025-10-15 16:27:13 [INFO] model_calls:102: 切换原因: 用户手动切换
+2025-10-15 16:27:13 [INFO] math_agent.model:170: 执行完成: 切换到模型: deepseek 耗时 1.690s
+2025-10-15 16:27:13 [INFO] math_agent.history:29: 历史管理器初始化完成，存储目录: ./chat_history
+2025-10-15 16:27:13 [INFO] math_agent.agent:39: 数学智能体初始化完成
+2025-10-15 16:27:13 [INFO] model_calls:66: 🚀 模型调用开始 - ID: call_1760516833435, 模型: deepseek, 会话: unknown
+2025-10-15 16:27:13 [INFO] model_calls:73: 📤 发送请求 - 调用ID: call_1760516833435
+2025-10-15 16:27:14 [INFO] httpx:1025: HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-15 16:27:16 [INFO] model_calls:79: 📥 收到响应 - 调用ID: call_1760516833435, 耗时: 3.084s
+2025-10-15 16:27:16 [INFO] model_calls:108: 🔧 决定使用工具 - 调用ID: call_1760516833435
+2025-10-15 16:27:16 [INFO] model_calls:113:   工具 1: multiply({'a': 123, 'b': 456})
+2025-10-15 16:27:16 [INFO] model_calls:96: ✅ 调用完成 - 调用ID: call_1760516833435, 总耗时: 3.086s, 消耗tokens: 672
+2025-10-15 16:27:16 [INFO] model_calls:122: ⚙️ 开始执行工具 - 调用ID: tool_1760516836523, 工具: multiply
+2025-10-15 16:27:16 [INFO] model_calls:128: ✅ 工具执行完成 - 调用ID: tool_1760516836523, 工具: multiply, 耗时: 0.001s
+2025-10-15 16:27:16 [INFO] model_calls:66: 🚀 模型调用开始 - ID: call_1760516836537, 模型: deepseek, 会话: unknown
+2025-10-15 16:27:16 [INFO] model_calls:73: 📤 发送请求 - 调用ID: call_1760516836537
+2025-10-15 16:27:16 [INFO] httpx:1025: HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-15 16:27:17 [INFO] model_calls:79: 📥 收到响应 - 调用ID: call_1760516836537, 耗时: 1.350s
+2025-10-15 16:27:17 [INFO] model_calls:115: 💬 直接回复用户 - 调用ID: call_1760516836537
+2025-10-15 16:27:17 [INFO] model_calls:96: ✅ 调用完成 - 调用ID: call_1760516836537, 总耗时: 1.351s, 消耗tokens: 568
+2025-10-15 16:27:28 [INFO] math_agent:40: 日志系统初始化成功
+2025-10-15 16:27:28 [INFO] math_agent.model:40: 配置文件加载成功: config/config.yaml
+2025-10-15 16:27:28 [INFO] math_agent.model:33: 模型管理器初始化完成
+2025-10-15 16:27:28 [DEBUG] math_agent.model:161: 开始执行: 切换到模型: deepseek
+2025-10-15 16:27:28 [INFO] math_agent.model:72: 开始切换到模型: deepseek
+2025-10-15 16:27:29 [INFO] math_agent.model:98: 成功切换到模型: deepseek
+2025-10-15 16:27:29 [INFO] model_calls:100: 🔄 模型切换: deepseek -> deepseek
+2025-10-15 16:27:29 [INFO] model_calls:102: 切换原因: 用户手动切换
+2025-10-15 16:27:29 [INFO] math_agent.model:170: 执行完成: 切换到模型: deepseek 耗时 1.671s
+2025-10-15 16:27:29 [INFO] math_agent.history:29: 历史管理器初始化完成，存储目录: ./chat_history
+2025-10-15 16:27:29 [INFO] math_agent.agent:39: 数学智能体初始化完成
+2025-10-15 16:27:29 [INFO] model_calls:66: 🚀 模型调用开始 - ID: call_1760516849980, 模型: deepseek, 会话: unknown
+2025-10-15 16:27:29 [INFO] model_calls:73: 📤 发送请求 - 调用ID: call_1760516849980
+2025-10-15 16:27:30 [INFO] httpx:1025: HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-15 16:27:33 [INFO] model_calls:79: 📥 收到响应 - 调用ID: call_1760516849980, 耗时: 3.584s
+2025-10-15 16:27:33 [INFO] model_calls:108: 🔧 决定使用工具 - 调用ID: call_1760516849980
+2025-10-15 16:27:33 [INFO] model_calls:113:   工具 1: multiply({'a': 123, 'b': 456})
+2025-10-15 16:27:33 [INFO] model_calls:96: ✅ 调用完成 - 调用ID: call_1760516849980, 总耗时: 3.587s, 消耗tokens: 672
+2025-10-15 16:27:33 [INFO] model_calls:122: ⚙️ 开始执行工具 - 调用ID: tool_1760516853570, 工具: multiply
+2025-10-15 16:27:33 [INFO] model_calls:128: ✅ 工具执行完成 - 调用ID: tool_1760516853570, 工具: multiply, 耗时: 0.000s
+2025-10-15 16:27:33 [INFO] model_calls:66: 🚀 模型调用开始 - ID: call_1760516853582, 模型: deepseek, 会话: unknown
+2025-10-15 16:27:33 [INFO] model_calls:73: 📤 发送请求 - 调用ID: call_1760516853582
+2025-10-15 16:27:33 [INFO] httpx:1025: HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-15 16:27:35 [INFO] model_calls:79: 📥 收到响应 - 调用ID: call_1760516853582, 耗时: 1.805s
+2025-10-15 16:27:35 [INFO] model_calls:115: 💬 直接回复用户 - 调用ID: call_1760516853582
+2025-10-15 16:27:35 [INFO] model_calls:96: ✅ 调用完成 - 调用ID: call_1760516853582, 总耗时: 1.805s, 消耗tokens: 568
+2025-10-15 16:27:46 [INFO] math_agent:40: 日志系统初始化成功
+2025-10-15 16:27:46 [INFO] math_agent.model:40: 配置文件加载成功: config/config.yaml
+2025-10-15 16:27:46 [INFO] math_agent.model:33: 模型管理器初始化完成
+2025-10-15 16:27:46 [DEBUG] math_agent.model:161: 开始执行: 切换到模型: deepseek
+2025-10-15 16:27:46 [INFO] math_agent.model:72: 开始切换到模型: deepseek
+2025-10-15 16:27:48 [INFO] math_agent.model:98: 成功切换到模型: deepseek
+2025-10-15 16:27:48 [INFO] model_calls:100: 🔄 模型切换: deepseek -> deepseek
+2025-10-15 16:27:48 [INFO] model_calls:102: 切换原因: 用户手动切换
+2025-10-15 16:27:48 [INFO] math_agent.model:170: 执行完成: 切换到模型: deepseek 耗时 1.665s
+2025-10-15 16:27:48 [INFO] math_agent.history:29: 历史管理器初始化完成，存储目录: ./chat_history
+2025-10-15 16:27:48 [INFO] math_agent.agent:39: 数学智能体初始化完成
+2025-10-15 16:27:48 [INFO] model_calls:66: 🚀 模型调用开始 - ID: call_1760516868670, 模型: deepseek, 会话: unknown
+2025-10-15 16:27:48 [INFO] model_calls:73: 📤 发送请求 - 调用ID: call_1760516868670
+2025-10-15 16:27:49 [INFO] httpx:1025: HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-15 16:27:51 [INFO] model_calls:79: 📥 收到响应 - 调用ID: call_1760516868670, 耗时: 3.235s
+2025-10-15 16:27:51 [INFO] model_calls:108: 🔧 决定使用工具 - 调用ID: call_1760516868670
+2025-10-15 16:27:51 [INFO] model_calls:113:   工具 1: multiply({'a': 123, 'b': 456})
+2025-10-15 16:27:51 [INFO] model_calls:96: ✅ 调用完成 - 调用ID: call_1760516868670, 总耗时: 3.235s, 消耗tokens: 671
+2025-10-15 16:27:51 [INFO] model_calls:122: ⚙️ 开始执行工具 - 调用ID: tool_1760516871908, 工具: multiply
+2025-10-15 16:27:51 [INFO] model_calls:128: ✅ 工具执行完成 - 调用ID: tool_1760516871908, 工具: multiply, 耗时: 0.002s
+2025-10-15 16:27:51 [INFO] model_calls:66: 🚀 模型调用开始 - ID: call_1760516871922, 模型: deepseek, 会话: unknown
+2025-10-15 16:27:51 [INFO] model_calls:73: 📤 发送请求 - 调用ID: call_1760516871922
+2025-10-15 16:27:52 [INFO] httpx:1025: HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-15 16:27:54 [INFO] model_calls:79: 📥 收到响应 - 调用ID: call_1760516871922, 耗时: 2.248s
+2025-10-15 16:27:54 [INFO] model_calls:115: 💬 直接回复用户 - 调用ID: call_1760516871922
+2025-10-15 16:27:54 [INFO] model_calls:96: ✅ 调用完成 - 调用ID: call_1760516871922, 总耗时: 2.248s, 消耗tokens: 567
+2025-10-15 16:28:13 [INFO] math_agent:40: 日志系统初始化成功
+2025-10-15 16:28:13 [INFO] math_agent.model:40: 配置文件加载成功: config/config.yaml
+2025-10-15 16:28:13 [INFO] math_agent.model:33: 模型管理器初始化完成
+2025-10-15 16:28:13 [DEBUG] math_agent.model:161: 开始执行: 切换到模型: deepseek
+2025-10-15 16:28:13 [INFO] math_agent.model:72: 开始切换到模型: deepseek
+2025-10-15 16:28:15 [INFO] math_agent.model:98: 成功切换到模型: deepseek
+2025-10-15 16:28:15 [INFO] model_calls:100: 🔄 模型切换: deepseek -> deepseek
+2025-10-15 16:28:15 [INFO] model_calls:102: 切换原因: 用户手动切换
+2025-10-15 16:28:15 [INFO] math_agent.model:170: 执行完成: 切换到模型: deepseek 耗时 1.659s
+2025-10-15 16:28:15 [INFO] math_agent.history:29: 历史管理器初始化完成，存储目录: ./chat_history
+2025-10-15 16:28:15 [INFO] math_agent.agent:39: 数学智能体初始化完成
+2025-10-15 16:28:15 [INFO] model_calls:66: 🚀 模型调用开始 - ID: call_1760516895347, 模型: deepseek, 会话: unknown
+2025-10-15 16:28:15 [INFO] model_calls:73: 📤 发送请求 - 调用ID: call_1760516895347
+2025-10-15 16:28:15 [INFO] httpx:1025: HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-15 16:28:18 [INFO] model_calls:79: 📥 收到响应 - 调用ID: call_1760516895347, 耗时: 3.058s
+2025-10-15 16:28:18 [INFO] model_calls:108: 🔧 决定使用工具 - 调用ID: call_1760516895347
+2025-10-15 16:28:18 [INFO] model_calls:113:   工具 1: multiply({'a': 123, 'b': 456})
+2025-10-15 16:28:18 [INFO] model_calls:96: ✅ 调用完成 - 调用ID: call_1760516895347, 总耗时: 3.058s, 消耗tokens: 672
+2025-10-15 16:28:18 [INFO] model_calls:122: ⚙️ 开始执行工具 - 调用ID: tool_1760516898407, 工具: multiply
+2025-10-15 16:28:18 [INFO] model_calls:128: ✅ 工具执行完成 - 调用ID: tool_1760516898407, 工具: multiply, 耗时: 0.001s
+2025-10-15 16:28:18 [INFO] model_calls:66: 🚀 模型调用开始 - ID: call_1760516898422, 模型: deepseek, 会话: unknown
+2025-10-15 16:28:18 [INFO] model_calls:73: 📤 发送请求 - 调用ID: call_1760516898422
+2025-10-15 16:28:18 [INFO] httpx:1025: HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-15 16:28:20 [INFO] model_calls:79: 📥 收到响应 - 调用ID: call_1760516898422, 耗时: 1.672s
+2025-10-15 16:28:20 [INFO] model_calls:115: 💬 直接回复用户 - 调用ID: call_1760516898422
+2025-10-15 16:28:20 [INFO] model_calls:96: ✅ 调用完成 - 调用ID: call_1760516898422, 总耗时: 1.673s, 消耗tokens: 568
+2025-10-15 16:28:24 [INFO] math_agent:40: 日志系统初始化成功
+2025-10-15 16:28:25 [INFO] math_agent.model:40: 配置文件加载成功: config/config.yaml
+2025-10-15 16:28:25 [INFO] math_agent.model:33: 模型管理器初始化完成
+2025-10-15 16:28:25 [INFO] math_agent.history:29: 历史管理器初始化完成，存储目录: ./chat_history
+2025-10-15 16:28:25 [INFO] math_agent.main:31: CLI 初始化完成
+2025-10-15 16:28:25 [DEBUG] math_agent.model:161: 开始执行: 切换到模型: deepseek
+2025-10-15 16:28:25 [INFO] math_agent.model:72: 开始切换到模型: deepseek
+2025-10-15 16:28:26 [INFO] math_agent.model:98: 成功切换到模型: deepseek
+2025-10-15 16:28:26 [INFO] model_calls:100: 🔄 模型切换: deepseek -> deepseek
+2025-10-15 16:28:26 [INFO] model_calls:102: 切换原因: 用户手动切换
+2025-10-15 16:28:26 [INFO] math_agent.model:170: 执行完成: 切换到模型: deepseek 耗时 1.674s
+2025-10-15 16:28:26 [INFO] math_agent.agent:39: 数学智能体初始化完成
+2025-10-15 16:29:49 [INFO] math_agent:40: 日志系统初始化成功
+2025-10-15 16:29:49 [INFO] math_agent.model:40: 配置文件加载成功: config/config.yaml
+2025-10-15 16:29:49 [INFO] math_agent.model:33: 模型管理器初始化完成
+2025-10-15 16:29:49 [INFO] math_agent.history:29: 历史管理器初始化完成，存储目录: ./chat_history
+2025-10-15 16:29:49 [INFO] math_agent.main:31: CLI 初始化完成
+2025-10-15 16:29:49 [DEBUG] math_agent.model:161: 开始执行: 切换到模型: deepseek
+2025-10-15 16:29:49 [INFO] math_agent.model:72: 开始切换到模型: deepseek
+2025-10-15 16:29:51 [INFO] math_agent.model:98: 成功切换到模型: deepseek
+2025-10-15 16:29:51 [INFO] model_calls:100: 🔄 模型切换: deepseek -> deepseek
+2025-10-15 16:29:51 [INFO] model_calls:102: 切换原因: 用户手动切换
+2025-10-15 16:29:51 [INFO] math_agent.model:170: 执行完成: 切换到模型: deepseek 耗时 1.713s
+2025-10-15 16:29:51 [INFO] math_agent.agent:39: 数学智能体初始化完成
+2025-10-15 16:30:09 [INFO] math_agent:40: 日志系统初始化成功
+2025-10-15 16:30:09 [INFO] math_agent.model:40: 配置文件加载成功: config/config.yaml
+2025-10-15 16:30:09 [INFO] math_agent.model:33: 模型管理器初始化完成
+2025-10-15 16:30:09 [DEBUG] math_agent.model:161: 开始执行: 切换到模型: deepseek
+2025-10-15 16:30:09 [INFO] math_agent.model:72: 开始切换到模型: deepseek
+2025-10-15 16:30:11 [INFO] math_agent.model:98: 成功切换到模型: deepseek
+2025-10-15 16:30:11 [INFO] model_calls:100: 🔄 模型切换: deepseek -> deepseek
+2025-10-15 16:30:11 [INFO] model_calls:102: 切换原因: 用户手动切换
+2025-10-15 16:30:11 [INFO] math_agent.model:170: 执行完成: 切换到模型: deepseek 耗时 1.678s
+2025-10-15 16:30:11 [INFO] math_agent.history:29: 历史管理器初始化完成，存储目录: ./chat_history
+2025-10-15 16:30:11 [INFO] math_agent.agent:39: 数学智能体初始化完成
+2025-10-15 16:30:11 [INFO] model_calls:66: 🚀 模型调用开始 - ID: call_1760517011236, 模型: deepseek, 会话: unknown
+2025-10-15 16:30:11 [INFO] model_calls:73: 📤 发送请求 - 调用ID: call_1760517011236
+2025-10-15 16:30:12 [INFO] httpx:1025: HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-15 16:30:14 [INFO] model_calls:79: 📥 收到响应 - 调用ID: call_1760517011236, 耗时: 3.652s
+2025-10-15 16:30:14 [INFO] model_calls:108: 🔧 决定使用工具 - 调用ID: call_1760517011236
+2025-10-15 16:30:14 [INFO] model_calls:113:   工具 1: multiply({'a': 8451354, 'b': 8451})
+2025-10-15 16:30:14 [INFO] model_calls:96: ✅ 调用完成 - 调用ID: call_1760517011236, 总耗时: 3.654s, 消耗tokens: 680
+2025-10-15 16:30:14 [INFO] model_calls:122: ⚙️ 开始执行工具 - 调用ID: tool_1760517014892, 工具: multiply
+2025-10-15 16:30:14 [INFO] model_calls:128: ✅ 工具执行完成 - 调用ID: tool_1760517014892, 工具: multiply, 耗时: 0.001s
+2025-10-15 16:30:14 [INFO] model_calls:66: 🚀 模型调用开始 - ID: call_1760517014906, 模型: deepseek, 会话: unknown
+2025-10-15 16:30:14 [INFO] model_calls:73: 📤 发送请求 - 调用ID: call_1760517014906
+2025-10-15 16:30:15 [INFO] httpx:1025: HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-15 16:30:17 [INFO] model_calls:79: 📥 收到响应 - 调用ID: call_1760517014906, 耗时: 2.512s
+2025-10-15 16:30:17 [INFO] model_calls:115: 💬 直接回复用户 - 调用ID: call_1760517014906
+2025-10-15 16:30:17 [INFO] model_calls:96: ✅ 调用完成 - 调用ID: call_1760517014906, 总耗时: 2.512s, 消耗tokens: 597
+2025-10-15 16:30:31 [INFO] math_agent:40: 日志系统初始化成功
+2025-10-15 16:30:31 [INFO] math_agent.model:40: 配置文件加载成功: config/config.yaml
+2025-10-15 16:30:31 [INFO] math_agent.model:33: 模型管理器初始化完成
+2025-10-15 16:30:31 [DEBUG] math_agent.model:161: 开始执行: 切换到模型: deepseek
+2025-10-15 16:30:31 [INFO] math_agent.model:72: 开始切换到模型: deepseek
+2025-10-15 16:30:32 [INFO] math_agent.model:98: 成功切换到模型: deepseek
+2025-10-15 16:30:32 [INFO] math_agent.model:170: 执行完成: 切换到模型: deepseek 耗时 1.676s
+2025-10-15 16:30:32 [INFO] math_agent.history:29: 历史管理器初始化完成，存储目录: ./chat_history
+2025-10-15 16:30:32 [INFO] math_agent.agent:39: 数学智能体初始化完成
+2025-10-15 16:30:33 [INFO] httpx:1025: HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-15 16:30:36 [INFO] httpx:1025: HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-15 16:30:47 [INFO] math_agent:40: 日志系统初始化成功
+2025-10-15 16:30:47 [INFO] math_agent.model:40: 配置文件加载成功: config/config.yaml
+2025-10-15 16:30:47 [INFO] math_agent.model:33: 模型管理器初始化完成
+2025-10-15 16:30:47 [DEBUG] math_agent.model:161: 开始执行: 切换到模型: deepseek
+2025-10-15 16:30:47 [INFO] math_agent.model:72: 开始切换到模型: deepseek
+2025-10-15 16:30:49 [INFO] math_agent.model:98: 成功切换到模型: deepseek
+2025-10-15 16:30:49 [INFO] math_agent.model:170: 执行完成: 切换到模型: deepseek 耗时 1.685s
+2025-10-15 16:30:49 [INFO] math_agent.history:29: 历史管理器初始化完成，存储目录: ./chat_history
+2025-10-15 16:30:49 [INFO] math_agent.agent:39: 数学智能体初始化完成
+2025-10-15 16:31:29 [INFO] math_agent:40: 日志系统初始化成功
+2025-10-15 16:31:30 [INFO] math_agent.model:40: 配置文件加载成功: config/config.yaml
+2025-10-15 16:31:30 [INFO] math_agent.model:33: 模型管理器初始化完成
+2025-10-15 16:31:30 [INFO] math_agent.history:29: 历史管理器初始化完成，存储目录: ./chat_history
+2025-10-15 16:31:30 [INFO] math_agent.main:31: CLI 初始化完成
+2025-10-15 16:31:30 [DEBUG] math_agent.model:161: 开始执行: 切换到模型: deepseek
+2025-10-15 16:31:30 [INFO] math_agent.model:72: 开始切换到模型: deepseek
+2025-10-15 16:31:30 [INFO] math_agent.model:80: 从配置文件获取 deepseek API Key
+2025-10-15 16:31:31 [INFO] math_agent.model:98: 成功切换到模型: deepseek
+2025-10-15 16:31:31 [INFO] math_agent.model:170: 执行完成: 切换到模型: deepseek 耗时 1.543s
+2025-10-15 16:31:31 [INFO] math_agent.agent:39: 数学智能体初始化完成
+2025-10-15 16:56:24 [INFO] math_agent:40: 日志系统初始化成功
+2025-10-15 16:56:25 [INFO] math_agent.model:40: 配置文件加载成功: config/config.yaml
+2025-10-15 16:56:25 [INFO] math_agent.model:33: 模型管理器初始化完成
+2025-10-15 16:56:25 [INFO] math_agent.history:29: 历史管理器初始化完成，存储目录: ./chat_history
+2025-10-15 16:56:25 [INFO] math_agent.main:31: CLI 初始化完成
+2025-10-15 16:56:25 [DEBUG] math_agent.model:161: 开始执行: 切换到模型: deepseek
+2025-10-15 16:56:25 [INFO] math_agent.model:72: 开始切换到模型: deepseek
+2025-10-15 16:56:25 [INFO] math_agent.model:80: 从配置文件获取 deepseek API Key
+2025-10-15 16:56:27 [INFO] math_agent.model:98: 成功切换到模型: deepseek
+2025-10-15 16:56:27 [INFO] math_agent.model:170: 执行完成: 切换到模型: deepseek 耗时 1.920s
+2025-10-15 16:56:27 [INFO] math_agent.agent:49: 数学智能体初始化完成
+2025-10-15 16:59:58 [INFO] math_agent:40: 日志系统初始化成功
+2025-10-15 16:59:58 [INFO] math_agent.model:40: 配置文件加载成功: config/config.yaml
+2025-10-15 16:59:58 [INFO] math_agent.model:33: 模型管理器初始化完成
+2025-10-15 16:59:58 [INFO] math_agent.history:29: 历史管理器初始化完成，存储目录: ./chat_history
+2025-10-15 16:59:58 [INFO] math_agent.main:31: CLI 初始化完成
+2025-10-15 16:59:58 [DEBUG] math_agent.model:161: 开始执行: 切换到模型: deepseek
+2025-10-15 16:59:58 [INFO] math_agent.model:72: 开始切换到模型: deepseek
+2025-10-15 16:59:58 [INFO] math_agent.model:80: 从配置文件获取 deepseek API Key
+2025-10-15 17:00:00 [INFO] math_agent.model:98: 成功切换到模型: deepseek
+2025-10-15 17:00:00 [INFO] math_agent.model:170: 执行完成: 切换到模型: deepseek 耗时 1.555s
+2025-10-15 17:00:00 [INFO] math_agent.agent:49: 数学智能体初始化完成
+2025-10-15 17:18:41 [INFO] math_agent:40: 日志系统初始化成功
+2025-10-15 17:18:42 [INFO] math_agent.model:40: 配置文件加载成功: config/config.yaml
+2025-10-15 17:18:42 [INFO] math_agent.model:33: 模型管理器初始化完成
+2025-10-15 17:18:42 [INFO] math_agent.history:29: 历史管理器初始化完成，存储目录: ./chat_history
+2025-10-15 17:18:42 [INFO] math_agent.main:31: CLI 初始化完成
+2025-10-15 17:18:42 [DEBUG] math_agent.model:161: 开始执行: 切换到模型: deepseek
+2025-10-15 17:18:42 [INFO] math_agent.model:72: 开始切换到模型: deepseek
+2025-10-15 17:18:42 [INFO] math_agent.model:80: 从配置文件获取 deepseek API Key
+2025-10-15 17:18:44 [INFO] math_agent.model:98: 成功切换到模型: deepseek
+2025-10-15 17:18:44 [INFO] math_agent.model:170: 执行完成: 切换到模型: deepseek 耗时 1.805s
+2025-10-15 17:18:44 [INFO] math_agent.agent:51: 数学智能体初始化完成
+2025-10-15 17:22:51 [INFO] math_agent:40: 日志系统初始化成功
+2025-10-15 17:22:51 [INFO] math_agent.model:40: 配置文件加载成功: config/config.yaml
+2025-10-15 17:22:51 [INFO] math_agent.model:33: 模型管理器初始化完成
+2025-10-15 17:22:51 [INFO] math_agent.history:29: 历史管理器初始化完成，存储目录: ./chat_history
+2025-10-15 17:22:51 [INFO] math_agent.main:31: CLI 初始化完成
+2025-10-15 17:22:51 [DEBUG] math_agent.model:161: 开始执行: 切换到模型: deepseek
+2025-10-15 17:22:51 [INFO] math_agent.model:72: 开始切换到模型: deepseek
+2025-10-15 17:22:51 [INFO] math_agent.model:80: 从配置文件获取 deepseek API Key
+2025-10-15 17:22:53 [INFO] math_agent.model:98: 成功切换到模型: deepseek
+2025-10-15 17:22:53 [INFO] math_agent.model:170: 执行完成: 切换到模型: deepseek 耗时 1.628s
+2025-10-15 17:22:53 [INFO] math_agent.agent:51: 数学智能体初始化完成
+2025-10-15 17:30:57 [INFO] math_agent:40: 日志系统初始化成功
+2025-10-15 17:30:57 [INFO] math_agent.model:40: 配置文件加载成功: config/config.yaml
+2025-10-15 17:30:57 [INFO] math_agent.model:33: 模型管理器初始化完成
+2025-10-15 17:30:57 [WARNING] root:593: AI模型分析失败，使用基础分析: 'ModelManager' object has no attribute 'generate_response'
+2025-10-15 17:30:59 [INFO] root:1011: 分析报告已生成: test_output\analysis_report_20251015_173059.md
+2025-10-15 17:32:01 [INFO] math_agent:40: 日志系统初始化成功
+2025-10-15 17:32:01 [INFO] math_agent.model:40: 配置文件加载成功: config/config.yaml
+2025-10-15 17:32:01 [INFO] math_agent.model:33: 模型管理器初始化完成
+2025-10-15 17:32:01 [DEBUG] math_agent.model:161: 开始执行: 切换到模型: deepseek
+2025-10-15 17:32:01 [INFO] math_agent.model:72: 开始切换到模型: deepseek
+2025-10-15 17:32:03 [INFO] math_agent.model:98: 成功切换到模型: deepseek
+2025-10-15 17:32:03 [INFO] math_agent.model:170: 执行完成: 切换到模型: deepseek 耗时 1.915s
+2025-10-15 17:32:26 [INFO] root:1025: 分析报告已生成: test_output\analysis_report_20251015_173226.md
+2025-10-15 17:33:16 [INFO] math_agent:40: 日志系统初始化成功
+2025-10-15 17:33:17 [INFO] math_agent.model:40: 配置文件加载成功: config/config.yaml
+2025-10-15 17:33:17 [INFO] math_agent.model:33: 模型管理器初始化完成
+2025-10-15 17:33:17 [INFO] math_agent.history:29: 历史管理器初始化完成，存储目录: ./chat_history
+2025-10-15 17:33:17 [INFO] math_agent.main:31: CLI 初始化完成
+2025-10-15 17:33:17 [DEBUG] math_agent.model:161: 开始执行: 切换到模型: deepseek
+2025-10-15 17:33:17 [INFO] math_agent.model:72: 开始切换到模型: deepseek
+2025-10-15 17:33:17 [INFO] math_agent.model:80: 从配置文件获取 deepseek API Key
+2025-10-15 17:33:19 [INFO] math_agent.model:98: 成功切换到模型: deepseek
+2025-10-15 17:33:19 [INFO] math_agent.model:170: 执行完成: 切换到模型: deepseek 耗时 1.528s
+2025-10-15 17:33:19 [INFO] math_agent.agent:51: 数学智能体初始化完成
+2025-10-15 17:33:43 [INFO] math_agent.model:40: 配置文件加载成功: config/config.yaml
+2025-10-15 17:33:43 [INFO] math_agent.model:33: 模型管理器初始化完成
+2025-10-15 17:33:43 [DEBUG] math_agent.model:161: 开始执行: 切换到模型: deepseek
+2025-10-15 17:33:43 [INFO] math_agent.model:72: 开始切换到模型: deepseek
+2025-10-15 17:33:43 [INFO] math_agent.model:80: 从配置文件获取 deepseek API Key
+2025-10-15 17:33:43 [INFO] math_agent.model:98: 成功切换到模型: deepseek
+2025-10-15 17:33:43 [INFO] math_agent.model:170: 执行完成: 切换到模型: deepseek 耗时 0.001s
+2025-10-15 17:37:54 [INFO] math_agent.model:40: 配置文件加载成功: config/config.yaml
+2025-10-15 17:37:54 [INFO] math_agent.model:33: 模型管理器初始化完成
+2025-10-15 17:37:54 [DEBUG] math_agent.model:161: 开始执行: 切换到模型: deepseek
+2025-10-15 17:37:54 [INFO] math_agent.model:72: 开始切换到模型: deepseek
+2025-10-15 17:37:54 [INFO] math_agent.model:80: 从配置文件获取 deepseek API Key
+2025-10-15 17:37:54 [INFO] math_agent.model:98: 成功切换到模型: deepseek
+2025-10-15 17:37:54 [INFO] math_agent.model:170: 执行完成: 切换到模型: deepseek 耗时 0.001s
+2025-10-16 09:16:21 [INFO] math_agent:40: 日志系统初始化成功
+2025-10-16 09:16:22 [INFO] math_agent.model:40: 配置文件加载成功: config/config.yaml
+2025-10-16 09:16:22 [INFO] math_agent.model:33: 模型管理器初始化完成
+2025-10-16 09:16:22 [INFO] math_agent.history:29: 历史管理器初始化完成，存储目录: ./chat_history
+2025-10-16 09:16:22 [INFO] math_agent.main:31: CLI 初始化完成
+2025-10-16 09:16:22 [DEBUG] math_agent.model:161: 开始执行: 切换到模型: deepseek
+2025-10-16 09:16:22 [INFO] math_agent.model:72: 开始切换到模型: deepseek
+2025-10-16 09:16:22 [INFO] math_agent.model:80: 从配置文件获取 deepseek API Key
+2025-10-16 09:16:24 [INFO] math_agent.model:98: 成功切换到模型: deepseek
+2025-10-16 09:16:24 [INFO] math_agent.model:170: 执行完成: 切换到模型: deepseek 耗时 1.715s
+2025-10-16 09:16:24 [INFO] math_agent.agent:51: 数学智能体初始化完成
+2025-10-16 09:17:03 [INFO] math_agent.model:40: 配置文件加载成功: config/config.yaml
+2025-10-16 09:17:03 [INFO] math_agent.model:33: 模型管理器初始化完成
+2025-10-16 09:17:03 [DEBUG] math_agent.model:161: 开始执行: 切换到模型: deepseek
+2025-10-16 09:17:03 [INFO] math_agent.model:72: 开始切换到模型: deepseek
+2025-10-16 09:17:03 [INFO] math_agent.model:80: 从配置文件获取 deepseek API Key
+2025-10-16 09:17:03 [INFO] math_agent.model:98: 成功切换到模型: deepseek
+2025-10-16 09:17:03 [INFO] math_agent.model:170: 执行完成: 切换到模型: deepseek 耗时 0.002s
+2025-10-16 09:50:32 [INFO] math_agent:40: 日志系统初始化成功
