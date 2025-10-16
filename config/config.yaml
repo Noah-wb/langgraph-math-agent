@@ -3,7 +3,7 @@ models:
     name: "deepseek-chat"
     base_url: "https://api.deepseek.com/v1"
     api_key_env: "DEEPSEEK_API_KEY"
-    DEEPSEEK_API_KEY: "sk-797762b3a4ee44c8b315d748b36cc9f6"
+    DEEPSEEK_API_KEY: ""
     temperature: 0.7
     max_tokens: 2000
     
